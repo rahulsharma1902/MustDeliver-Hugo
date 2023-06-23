@@ -1,0 +1,60 @@
+<header class="header_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 head-col">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="javascript:void(0)">
+                {{ $logo := resources.Get "img/site-logo.png" }}
+              <img src="{{ $logo.RelPermalink }}" class="img-fluid" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <div class="bars bar1"></div>
+              <div class="bars bar2"></div>
+              <div class="bars bar3"></div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="javascript:void(0)">Home</a>
+                </li>
+                <li class="nav-item drop-down">
+                  <a class="nav-link drop-toggle" href="javascript:void(0)">Platform</a>
+                  <span class="cus-drop"><i class="fa-solid fa-angle-down"></i></span>
+                  <div class="drop-menu">
+                    <a href="#" class="drop-items">Marketplace</a>
+                    <a href="#" class="drop-items">TMS</a>
+                    <a href="#" class="drop-items">Pricing Model</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0)">Shippers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0)">Carriers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0)">About</a>
+                </li>
+                <li class="nav-item drop-down">
+                  <a class="nav-link drop-toggle" href="javascript:void(0)">Support</a>
+                  <span class="cus-drop"><i class="fa-solid fa-angle-down"></i></span>
+                  <div class="drop-menu">
+                    <a href="#" class="drop-items"> Shipper FAQ’s</a>
+                    <a href="#" class="drop-items">Carrier FAQ’s</a>
+                    <a href="#" class="drop-items">Carrier Registration Guide</a>
+                    <a href="#" class="drop-items">Carrier Tracking</a>
+                    <a href="#" class="drop-items">Completing Loads</a>
+                  </div>
+                </li>
+              </ul>
+              <form class="form-inline">
+                <button class="btn btn-light" type="submit">Sign Up</button>
+                <button class="btn btn-primary" type="submit">Login</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
