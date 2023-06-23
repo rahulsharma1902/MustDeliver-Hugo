@@ -1,0 +1,189 @@
+<section class="banner_wrapper">
+    <div class="banner_content text-center">
+      <h1>Shipping Transparency</h1>
+      <p>People Powered : AI Optimized</p>
+    </div>
+    <div class="banner_img">
+      <div class="background-clouds"></div>
+      <div class="bg_cloud">
+        {{ $bannerBg := resources.Get "img/banner-bg.png" }}
+        <img src="{{ $bannerBg.RelPermalink }}" class="img-fluid" alt="">
+      </div>
+      <div class="bus_wreap">
+        {{ $bus := resources.Get "img/bus.png" }}
+            <img src="{{ $bus.RelPermalink }}" class="img-fluid" alt="">
+      </div>
+      <div class="bg_rotate">
+        <div class="background-line"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="serve_wrapper p_130">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="serve_content">
+            <div class="text-center">
+              <h2>What we serve</h2>
+            </div>
+            <div class="serve_grid">
+              <div class="serve_list">
+                {{ $ShipWithoutDoubt := resources.Get "img/Ship-Without-Doubt.svg" }}
+                <img src="{{ $ShipWithoutDoubt.RelPermalink }}" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <a href="#">Ship Without Doubt</a>
+                  <p>A More Confident, Informed Experience</p>
+                </div>
+              </div>
+              <div class="serve_list">
+                {{ $CarrierSideControl := resources.Get "img/Carrier-Side-Control.svg" }}
+                <img src="{{ $CarrierSideControl.RelPermalink }}" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <a href="#">Carrier Side Control</a>
+                  <p>More Control In The Driver's Seat</p>
+                </div>
+              </div>
+              <div class="serve_list">
+                {{ $HereToHelp := resources.Get "img/Here-to-Help (1).svg" }}
+                <img src="{{ $HereToHelp.RelPermalink }}" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <a href="#">Here To Help</a>
+                  <p>The Support You Need To Get Going</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="deliver_wrapper pb_130">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="deliver_content">
+            <h2>Who is MustDeliver?</h2>
+            <p>
+              MustDeliver provides automotive shippers (auto dealerships, auto auctions, online vehicleexchanges, car
+              manufacturers & traditional brokers) an optimized end-to-end logisticsplatform which connects them to
+              carriers, while using AI/ML technology for maximumefficiency and user convenience. Real time tracking
+              tools and updated ETA’s demonstrateour commitment to addressing our customers’ top concerns regarding the
+              transport of avaluable asset. Our platform services B2B marketplace transactions as well as providingSaaS
+              tool solutions. . MustDeliver's operating focus is in the US and Canada.
+            </p>
+            <div class="btn_wreap">
+              <a class="btn cta" href="#" role="button">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 offset-lg-1">
+          <div class="deliver_img">
+            {{ $deliver := resources.Get "img/deliver.png" }}
+            <img src="{{ $deliver.RelPermalink }}" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Offer_wrapper p_130">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="serve_content">
+            <div class="offer_hd text-center">
+              <h1>What We Offer</h1>
+              <p>Shippers And Carriers Working Together</p>
+            </div>
+            <div class="Offer_slider">
+              <div class="Offer_list">
+                {{ $AutomatedPricing := resources.Get "img/Automated-Pricing.png" }}
+                <img src="{{ $AutomatedPricing.RelPermalink }}" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <h3>Automated<br> Pricing</h3>
+                  <p>Simple, straight forward transactions with no hidden surprises or last minute fee changes.</p>
+                </div>
+              </div>
+              <div class="Offer_list">
+                {{ $realTime := resources.Get "img/real-time.png" }}
+                <img src="{{ $realTime.RelPermalink }}" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <h3>Real Time<br> Shipment Alerts</h3>
+                  <p>Whether it's right on time or there's unexpected delays, you'll know each step of the way.</p>
+                </div>
+              </div>
+              <div class="Offer_list">
+                {{ $carrier := resources.Get "img/carrier.png" }}
+                <img src="{{ $carrier.RelPermalink }}" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <h3>Carrier<br> Side Preferences</h3>
+                  <p>Specifically designed to help Carriers do more of what they want, when they want to do it.</p>
+                </div>
+              </div>
+              <div class="Offer_list">
+                {{ $AutomatedPricing := resources.Get "img/Automated-Pricing.png" }}
+                <img src="{{ $AutomatedPricing.RelPermalink }}" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <h3>Automated<br> Pricing</h3>
+                  <p>Simple, straight forward transactions with no hidden surprises or last minute fee changes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="carrier_wrapper p_130 mb-256">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="carrier_img">
+            {{ $CarrierSide := resources.Get "img/Carrier-Side.png" }}
+            <img src="{{ $CarrierSide.RelPermalink }}" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="carrier_content">
+            <h2>Carrier Side Control</h2>
+            <p>We help Carriers spend less time finding loads and more time making money.</p>
+            <ul>
+              <li>Set Fleet Preferences</li>
+              <li>Expedited Payments</li>
+              <li>Straight Forward Pricing</li>
+              <li>Direct, In-App Communication With The MustDeliver Team</li>
+            </ul>
+            <div class="btn_wreap">
+              <a class="btn cta" href="#" role="button">Find Out More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row carrier_wreap pt_130">
+        <div class="col-lg-6 col-md-6">
+          <div class="carrier_img">
+            {{ $ShipWithout := resources.Get "img/Ship-without.png" }}
+            <img src="{{ $ShipWithout.RelPermalink }}" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="carrier_content">
+            <h2>Ship without Doubt</h2>
+            <p>We help shippers have a more informed shipping experience.</p>
+            <ul>
+              <li>Easy To Use Shipping Dashboard</li>
+              <li>Real Time Tracking & ETA</li>
+              <li>Communication With MustDeliver Team & Carriers</li>
+            </ul>
+            <div class="btn_wreap">
+              <a class="btn cta" href="#" role="button">Find Out More</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>

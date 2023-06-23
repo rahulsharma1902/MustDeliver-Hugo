@@ -1,0 +1,39 @@
+<section class="serve_wrapper p_130">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="serve_content">
+            <div class="text-center">
+              <h2>{{ .title}}</h2>
+            </div>
+            <div class="serve_grid">
+              <div class="serve_list">
+                {{ $ShipWithoutDoubt := resources.Get "img/Ship-Without-Doubt.svg" }}
+                <img src="{{ $ShipWithoutDoubt.RelPermalink }}" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <a href="#">Ship Without Doubt</a>
+                  <p>A More Confident, Informed Experience</p>
+                </div>
+              </div>
+              <div class="serve_list">
+                {{ $CarrierSideControl := resources.Get "img/Carrier-Side-Control.svg" }}
+                <img src="{{ $CarrierSideControl.RelPermalink }}" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <a href="#">Carrier Side Control</a>
+                  <p>More Control In The Driver's Seat</p>
+                </div>
+              </div>
+              <div class="serve_list">
+                {{ $HereToHelp := resources.Get "img/Here-to-Help (1).svg" }}
+                <img src="{{ $HereToHelp.RelPermalink }}" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <a href="#">Here To Help</a>
+                  <p>The Support You Need To Get Going</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

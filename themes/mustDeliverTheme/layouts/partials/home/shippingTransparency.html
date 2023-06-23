@@ -1,0 +1,20 @@
+<section class="banner_wrapper">
+  <div class="banner_content text-center">
+    <h1>{{ .Title }}</h1>
+    <p>People Powered : AI Optimized</p>
+  </div>
+  <div class="banner_img">
+    <div class="background-clouds"></div>
+    <div class="bg_cloud">
+      {{ $bannerBg := resources.Get "img/banner-bg.png" }}
+      <img src="{{ $bannerBg.RelPermalink }}" class="img-fluid" alt="">
+    </div>
+    <div class="bus_wreap">
+      {{ $bus := resources.Get "img/bus.png" }}
+          <img src="{{ $bus.RelPermalink }}" class="img-fluid" alt="">
+    </div>
+    <div class="bg_rotate">
+      <div class="background-line"></div>
+    </div>
+  </div>
+</section>
