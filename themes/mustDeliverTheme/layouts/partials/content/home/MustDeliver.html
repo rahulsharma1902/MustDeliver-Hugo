@@ -1,0 +1,23 @@
+<section class="deliver_wrapper pb_130">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="deliver_content">
+            <h2>{{ .Title }}</h2>
+            <p>
+              {{ .Content }}
+            </p>
+            <div class="btn_wreap">
+              <a class="btn cta" href="{{ .Params.readMoreLink }}" role="button">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 offset-lg-1">
+          <div class="deliver_img">
+            {{ $image := resources.Get .Params.image }}
+            <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

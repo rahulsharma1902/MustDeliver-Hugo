@@ -1,0 +1,72 @@
+<section class="main-banner p_130">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="main_banner-text">
+                    <h2>{{ .Params.MainTitle }}</h2>
+                    <p>{{ .Params.MainPara }}</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="main_banner-img">
+                    {{ $image := resources.Get .Params.MainImage }}
+                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="transperncy-sec p_130">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="tras-img">
+                    {{ $image := resources.Get .Params.transperncyImage }}
+                <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="trans-text">
+                    <h2> {{ .Params.transperncyTitle }}</h2>
+                    <p> {{ .Params.transperncyDescription }}</p>
+                    <ul class="trans-list">
+                        {{ range .Params.transperncyList }}
+                        <li>{{ .para }}</li>
+                        {{ end }}
+                    </ul>
+                    <p><strong>contact</strong> us today to hear more about our Rebate Your Freight Program! </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="del-box-sec">
+    <div class="container">
+        {{ $image := resources.Get .Params.delImage }}
+        <div class="del-box" style="background-image: url({{ $image.RelPermalink }});">
+            <h3>"{{ .Params.delHeading }}"</h3>
+            <p>{{ .Params.delsubHeading }}</p>
+        </div>
+    </div>
+</section>
+<section class="carrier_wrapper odd_row p_130  mb-256">
+    <div class="container">
+        {{ range .Params.carrier_data }}
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="carrier_img">
+                    {{ $image := resources.Get .image }}
+                <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="carrier_content">
+                    <h2>{{ .title }}</h2>
+                    <p>{{ .description }}</p>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>

@@ -1,0 +1,27 @@
+<section class="Offer_wrapper p_130">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="serve_content">
+            <div class="offer_hd text-center">
+              <h1>{{ .Title }}</h1>
+              <p>{{ .Params.subtitle }}</p>
+            </div>
+            <div class="Offer_slider">
+              {{ range .Params.offer_items }}
+              <div class="Offer_list">
+                {{ $image := resources.Get .image }}
+                <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <h3>{{ .title }}</h3>
+                  <p>{{ .description }}</p>
+                </div>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  

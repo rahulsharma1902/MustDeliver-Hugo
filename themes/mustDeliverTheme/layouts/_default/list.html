@@ -1,5 +1,8 @@
-{{ range .Site.RegularPages }}
-  <h2>{{ .Title }}</h2>
-  <p>{{ .Date }}</p>
-  <!-- Additional post content goes here -->
+{{ define "main" }}
+  {{ $sortedPages := sort .Data.Pages "Params.order" }}
+  {{ range $sortedPages }}
+    {{ $partialPath := printf "content/%s%s.html" .File.Dir .File.BaseFileName }}
+    {{ $partialExists := fileExists $partialPath }}
+    {{ partial $partialPath . }}
+  {{ end }}
 {{ end }}

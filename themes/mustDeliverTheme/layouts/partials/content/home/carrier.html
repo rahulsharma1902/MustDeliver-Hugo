@@ -1,0 +1,30 @@
+
+<section class="carrier_wrapper p_130 mb-256">
+    <div class="container">
+      {{ range .Params.carrier_sections }}
+      <div class="row carrier_wreap pt_130">
+        <div class="col-lg-6 col-md-6">
+          <div class="carrier_img">
+            {{ $image := resources.Get .image }}
+            <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="carrier_content">
+            <h2>{{ .title }}</h2>
+            <p>{{ .description }}</p>
+            <ul>
+              {{ range .features }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+            <div class="btn_wreap">
+              <a class="btn cta" href="#" role="button">{{ .button_text }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  

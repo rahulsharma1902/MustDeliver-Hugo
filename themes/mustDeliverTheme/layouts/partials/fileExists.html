@@ -1,0 +1,9 @@
+{{ define "fileExists" }}
+  {{ $path := . }}
+  {{ $f := printf "%s/%s" .Site.Source $path }}
+  {{ if in (readDir $f) 0 }}
+    {{ return true }}
+  {{ else }}
+    {{ return false }}
+  {{ end }}
+{{ end }}

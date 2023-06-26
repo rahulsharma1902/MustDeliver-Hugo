@@ -58,6 +58,15 @@ $(document).ready(function () {
   $(".navbar-toggler").click(function(){
     $(this).toggleClass("open")
   })
+  $(".read-btn").click(function(){
+    $(".read-text").toggleClass("read")
+    if($(".read-text").hasClass("read")){
+      $(this).html("Show less")
+    }
+    else{
+      $(this).html("Read more")
+    }
+  })
 
   const next = document.querySelectorAll(".next-btn");
   const steps = Array.from(document.querySelectorAll(".signup_step"));
@@ -133,5 +142,9 @@ $(document).ready(function () {
    this.classList.toggle('fa-eye-slash');
   })
 });
+
+
+
+
 
 
