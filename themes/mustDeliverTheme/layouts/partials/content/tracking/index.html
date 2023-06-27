@@ -1,0 +1,66 @@
+<div class="faq-breadcrumbs">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/"><i class="fa-solid fa-house"></i></a></li>
+                <li class="breadcrumb-item"><a href="/support">Support</a></li>
+                <li class="breadcrumb-item"><a href="{{ .Page.Permalink }}">{{ .Title }}</a></li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<section class="tracking-sec">
+    <div class="container">
+        <div class="track-head">
+            <h2>{{ .Params.trackHeading }}</h2>
+            <h5>{{ .Params.trackSubTitle }}</h5>
+            <p>{{ .Params.trackDescription }}</p>
+        </div>
+
+        <div class="turn-location">
+            <h3>{{ .Params.turnLocationTitle }}</h3>
+            <p>{{ .Params.turnLocationPara }}</p>
+            <div class="row">
+                {{ range .Params.turnLocationDescription }}
+                <div class="col-md-6 col-sm-6">
+                    <div class="loc-box">
+                        <div class="log-img">
+                            {{ $image := resources.Get .image }}
+                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                        </div>
+                        <div class="loc-text">
+                            <h5>{{ .title }}</h5>
+                            <p>{{ .description }}</p>
+                        </div>
+                    </div>
+                </div>
+               {{ end }}
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="status-sec mb-256 p_130">
+    <div class="container">
+      {{ range .Params.status }}
+      <div class="row align-items-center">
+        <div class="col-md-4 col-sm-4">
+          <div class="status-img">
+            {{ $image := resources.Get .statusImage }}
+                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-8">
+          <div class="status-text">
+            {{ range .statusItems }}
+            <h3>{{ .statusTitle }}</h3>
+            {{ .statusDescription | safeHTML }}
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  
+  

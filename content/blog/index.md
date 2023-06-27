@@ -1,0 +1,47 @@
+---
+title: "Blog"
+subTitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s"
+mainImage: "img/blog-img.png"
+date: 2023-06-27T18:04:09+05:30
+draft: false
+
+BlogData: 
+    - image: "img/blog1.png"
+      category: "Blog Category"
+      title: "Lorem Ipsum has been the industry's standard"
+      date: "01 May, 2023"
+    - image: "img/blog2.png"
+      category: "Blog Category"
+      title: "Lorem Ipsum has been the industry's standard"
+      date: "01 May, 2023"
+    - image: "img/blog3.png"
+      category: "Blog Category"
+      title: "Lorem Ipsum has been the industry's standard"
+      date: "01 May, 2023"
+    - image: "img/blog4.png"
+      category: "Blog Category"
+      title: "Lorem Ipsum has been the industry's standard"
+      date: "01 May, 2023"
+    - image: "img/blog5.png"
+      category: "Blog Category"
+      title: "Lorem Ipsum has been the industry's standard"
+      date: "01 May, 2023"
+    - image: "img/blog6.png"
+      category: "Blog Category"
+      title: "Lorem Ipsum has been the industry's standard"
+      date: "01 May, 2023"
+    - image: "img/blog7.png"
+      category: "Blog Category"
+      title: "Lorem Ipsum has been the industry's standard"
+      date: "01 May, 2023"
+    - image: "img/blog8.png"
+      category: "Blog Category"
+      title: "Lorem Ipsum has been the industry's standard"
+      date: "01 May, 2023"
+    - image: "img/blog9.png"
+      category: "Blog Category"
+      title: "Lorem Ipsum has been the industry's standard"
+      date: "01 May, 2023"
+---
+

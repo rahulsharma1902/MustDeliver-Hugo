@@ -1,0 +1,93 @@
+<section class="carrier_app_sec">
+    <div class="container">
+        <div class="carrier_app_head">
+            <h2>{{ .Params.mainTitle }}</h2>
+            <h5>{{ .Params.mainSubTitle }}</h5>
+        </div>
+        <p>{{ .Params.mainDescription }}</p>
+        <div class="row">
+            {{ range .Params.mobileApplication }}
+            <div class="col-md-6">
+                <div class="app_store">
+                    <h5>{{ .mobileTitle }}</h5>
+                    <div class="app_img">
+                        {{ $mobileImage := resources.Get .mobileImage }}
+                    <img src="{{ $mobileImage.RelPermalink }}" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+
+    </div>
+</section>
+<section class="app-guid p_130 pb-0">
+    <div class="container">
+        <div class="app_guid_head text-center">
+            <h2>{{ .Params.RegistrationGuideTitle }} </h2>
+        </div>
+        <div class="row">
+            {{ range .Params.RegistrationGuide }}
+            <div class="col-md-4">
+                <div class="guide-box">
+                    <div class="guide_img">
+                        {{ $image := resources.Get .image }}
+                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                    </div>
+                    <div class="guide-text">
+                        <p>{{ .description }}</p>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="btns_warpper">
+            <a href="#"><i class="fa-solid fa-arrow-left"></i>Prev</a>
+            <a href="#">Next<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+
+</section>
+<section class="reg-sec mb-256 p_130">
+    <div class="container">
+        <div class="reg-head">
+            <h2>{{ .Params.registerTitle }}</h2>
+            <p>{{ .Params.registerDescription }}</p>
+        </div>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="registration-img">
+                    {{ $registerImage := resources.Get .Params.registerImage }}
+                    <img src="{{ $registerImage.RelPermalink }}" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="registration-text">
+                    <p>{{ .Params.registrationText }}</p>
+                    <div class="reg-list">
+                        {{ range .Params.registerList }}
+                        <div class="reg-wrapper">
+                            <div class="reg-icon">
+                                {{ $image := resources.Get .image }}
+                            <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                            </div>
+                            <div class="reg-text">
+                                <p>{{ .description }}</p>
+                            </div>
+                        </div>
+                        {{ end }}
+                        <div class="reg_list">
+                            <p>{{ .Params.reg_listTitle }}</p>
+                            <ul>
+                                {{ range .Params.reg_list }}
+                                <li> {{ .para }} </li>
+                                {{ end }}
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

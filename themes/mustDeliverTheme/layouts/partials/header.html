@@ -15,47 +15,30 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="/home">Home</a>
-                </li>
-                <li class="nav-item drop-down">
-                  <a class="nav-link drop-toggle" href="javascript:void(0)">Platform</a>
+                {{ range .Site.Params.mainMenu }}
+                <li class="nav-item{{ if .active }} active{{ end }} drop-down">
+                  <a class="nav-link" href="{{ .url }}">{{ .name }}</a>
+                  {{ if .subitems }}
                   <span class="cus-drop"><i class="fa-solid fa-angle-down"></i></span>
                   <div class="drop-menu">
-                    <a href="/marketplace" class="drop-items">Marketplace</a>
-                    <a href="/tms" class="drop-items">TMS</a>
-                    <a href="/pricingModel" class="drop-items">Pricing Model</a>
+                    {{ range .subitems }}
+                    <a href="{{ .url }}" class="drop-items">{{ .name }}</a>
+                    {{ end }}
                   </div>
+                  {{ end }}
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="javascript:void(0)">Shippers</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="javascript:void(0)">Carriers</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="/about">About</a>
-                </li>
-                <li class="nav-item drop-down">
-                  <a class="nav-link drop-toggle" href="javascript:void(0)">Support</a>
-                  <span class="cus-drop"><i class="fa-solid fa-angle-down"></i></span>
-                  <div class="drop-menu">
-                    <a href="#" class="drop-items"> Shipper FAQ’s</a>
-                    <a href="#" class="drop-items">Carrier FAQ’s</a>
-                    <a href="#" class="drop-items">Carrier Registration Guide</a>
-                    <a href="#" class="drop-items">Carrier Tracking</a>
-                    <a href="#" class="drop-items">Completing Loads</a>
-                  </div>
-                </li>
+                {{ end }}
               </ul>
               <form class="form-inline">
                 <button class="btn btn-light" type="submit">Sign Up</button>
                 <button class="btn btn-primary" type="submit">Login</button>
               </form>
             </div>
+            
           </nav>
         </div>
       </div>
     </div>
+  
   </header>
   

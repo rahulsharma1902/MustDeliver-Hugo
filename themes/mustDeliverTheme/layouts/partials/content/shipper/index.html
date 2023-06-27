@@ -1,0 +1,75 @@
+
+<section class="main-banner p_130">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="main_banner-text">
+                    <h2>{{ .Params.MainTitle }}</h2>
+                    <p>{{ .Params.MainPara}}</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="main_banner-img">
+                    {{ $image := resources.Get .Params.MainImage }}
+                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="maintain-sec p_130">
+    <div class="container">
+        <div class="work-head text-center">
+            <span>{{ .Params.maintananceTitle }}</span>
+            <h2>{{ .Params.maintananceDescription }}</h2>
+        </div>
+        <div class="row">
+            {{ range .Params.maintananceDetails }}
+            <div class="col-md-4">
+                <div class="maintain-box">
+                    <div class="maintain-icon">
+                        {{ $image := resources.Get .image }}
+                        <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                    </div>
+                    <div class="maintanance-text">
+                        <h5>{{ .title }}</h5>
+                        <p>{{ .description }}</p>
+                    </div>
+                </div>
+            </div>
+            {{ end}}
+        </div>
+    </div>
+</section>
+{{ $shipperBgImage := resources.Get .Params.shipperBgImage }}
+<section class="deliver-banner" style="background-image: url('{{ $shipperBgImage.RelPermalink }}');">
+    <div class="container">
+        <div class="deliver-text">
+            <h2> {{ .Params.shipperInfo}} </h2>
+            <a href="{{ .Params.shipperLink}}" class="cta">Shipper Sign Up</a>
+        </div>
+    </div>
+</section>
+
+<section class="carrier_wrapper odd_row p_130 mb-256">
+    <div class="container">
+        {{ range .Params.carrier_content }}
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="carrier_img">
+                    {{ $image := resources.Get .image }}
+                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="carrier_content">
+                    <h2>{{ .title }}</h2>
+                    <p>{{ .description }}</p>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+      
+    </div>
+</section>

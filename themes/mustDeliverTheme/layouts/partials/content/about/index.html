@@ -17,21 +17,55 @@
         </div>
     </div>
 </section>
-<section class="tourque-sec p_130">
+<section class="team-sec p_130 pt-0">
     <div class="container">
-        <div class="tourque-text">
-            {{ .Content }}
-            <div class="ab-list pt-5">
-                <ul class="tech-list">
-                    {{ range .Params.ourPurposeListItem }}
-                    <li class="">{{ . }}</li>
-                    {{ end }}
-                </ul>
+        <div class="team-head text-center">
+            <h2>{{ .Params.TeamTitle }}</h2>
+            <p>{{ .Params.TeamsubTitle }}</p>
+        </div>
+        <div class="row">
+            {{ range .Params.TeamMembers }}
+            <div class="col-md-4 col-sm-6">
+                <div class="team-box">
+                    <div class="team-img">
+                        {{ $image := resources.Get .image }}
+                        <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                    </div>
+                    <div class="team-content">
+                        <h5>{{ .name }}</h5>
+                        <span>{{ .position }}</span>
+                        <p>{{ .about }}</p>
+                        <ul class="team-social">
+                            <li>
+                                <a href="{{ .facebookLink }}"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li><a href="{{ .twitterLink }}"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="{{ .instagramLink }}"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="{{ .linkedinLink }}"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            
+            {{ end}}
         </div>
     </div>
 </section>
+<section class="tourque-sec p_130">
+    <div class="container">
+        <div class="tourque-text">
+            <h2>{{ .Params.ourPurposeTitle }}</h2>
+            <p> {{ .Params.ourPurposePara }}</p>
+            <button class="read-btn cta">Read more</button>
+            <div class="read-text">
+                {{ .Content }}
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
 <section class="carrier_wrapper odd_row p_130 mb-256">
     <div class="container">
         {{ range.Params.carrier_content}}

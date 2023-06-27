@@ -1,0 +1,42 @@
+<section class="blog-sec p_130">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="blog-head">
+                    <h2>{{ .Title }}</h2>
+                    <p>{{ .Params.subTitle }}</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blog-img">
+                    {{ $mainImage := resources.Get .Params.mainImage }}
+                    <img src="{{ $mainImage.RelPermalink }}" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog-sec p-130 pt-0 mb-256">
+    <div class="container">
+        <div class="row">
+             {{ range .Params.BlogData }}
+            <div class="col-md-4">
+                <div class="blog-box">
+                    <div class="blog-img">
+                        {{ $image := resources.Get .image }}
+                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                    </div>
+                    <div class="blog-text">
+                        <span>{{ .category }}</span>
+                        <h5>{{ .title }}</h5>
+                        <span class="yellow">{{ .date }}</span>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+
+        </div>
+    </div>
+
+</section>
+

@@ -1,0 +1,59 @@
+<section class="main-banner p_130">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <div class="main_banner-text">
+                    <h2>{{ .Params.mainTitle }}</h2>
+                    <p>{{ .Params.mainDescription }}</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="main_banner-img">
+                    {{ $mainImage := resources.Get .Params.mainImage }}
+                    <img src="{{ $mainImage.RelPermalink }}" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="advantage-sec p_130">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="advantage-text">
+                    <h2>{{ .Params.advantageTitle }}</h2>
+                        {{ range .Params.advantageDescription }}
+                            <p>{{ .para }}</p>
+                        {{ end}}
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="advantage-img">
+                    {{ $advantageImage := resources.Get .Params.advantageImage }}
+                    <img src="{{ $advantageImage.RelPermalink }}" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="carrier_wrapper p_130 mb-256">
+    <div class="container">
+        {{ range .Params.carrier_content }}
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="carrier_img">
+                    {{ $image := resources.Get .image }}
+                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <div class="carrier_content">
+                    <h2>{{ .title }}</h2>
+                    <p>{{ .description }}</p>
+                </div>
+            </div>
+        </div>
+       {{ end }}
+    </div>
+</section>

@@ -24,21 +24,88 @@ last_paragraph: "
   Indeed, MustDeliver's own market due diligence has borne out these initial observations: the lack of transparency between shippers, truck drivers, and freight brokers leads directly to service failures and high levels of distrust and dissatisfaction, especially between shipping clients and truck drivers.
 "
 
-ourPurposeListItem:
-  - "The Technology - MustDeliver can provide better service faster because of our platform and free Carrier Tools. (We would love to show you what we mean!)"
-  - "Our People - Supported by a skilled team with over 30 years of industry experience who know the business inside and out."
-  - "Sustainability - We can also help you with your ESG. (Environmental, Social, Governance) Every shipment we handle can help you lower your carbon footprint."
+ourPurposeTitle: "Our Purpose"
+ourPurposePara: "Our story begins in the harsh terrains of Northern Maine, amidst the gritty trucking communities
+                that form the backbone of America's industry. MustDeliver is the brainchild of a leader who's lived
+                the trucking life. Our co-founder and CEO, Carrie Love, is the youngest sibling in a family of
+                eleven. As a child, she rode along in potato trucks, logging trucks, and even the occasional dump
+                truck, absorbing the life of a trucker at its core."
+
+TeamTitle: "Our Team"
+TeamsubTitle: "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
+TeamMembers: 
+        - image: "img/blog4.png"
+          name: "Jeffry Brown"
+          position: "creative leader"
+          about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tenetur fuga aliquam!"
+          facebookLink: ""
+          twitterLink: ""
+          instagramLink: ""
+          linkedinLink: ""
+        - image: "img/blog4.png"
+          name: "Jeffry Brown"
+          position: "creative leader"
+          about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tenetur fuga aliquam!"
+          facebookLink: ""
+          twitter: ""
+          instagram: ""
+          linkedin: ""
+        - image: "img/blog4.png"
+          name: "Jeffry Brown"
+          position: "creative leader"
+          about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tenetur fuga aliquam!"
+          facebookLink: ""
+          twitter: ""
+          instagram: ""
+          linkedin: ""
+        - image: "img/blog4.png"
+          name: "Jeffry Brown"
+          position: "creative leader"
+          about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tenetur fuga aliquam!"
+          facebookLink: ""
+          twitter: ""
+          instagram: ""
+          linkedin: ""
+        - image: "img/blog4.png"
+          name: "Jeffry Brown"
+          position: "creative leader"
+          about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tenetur fuga aliquam!"
+          facebookLink: ""
+          twitter: ""
+          instagram: ""
+          linkedin: ""
+        - image: "img/blog4.png"
+          name: "Jeffry Brown"
+          position: "creative leader"
+          about: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tenetur fuga aliquam!"
+          facebookLink: ""
+          twitter: ""
+          instagram: ""
+          linkedin: ""
 
 ---
 
-## Our Purpose
 
-MustDeliver was created to disrupt the traditional freight broker model by focusing on transparency, accountability, and communication.
+  Her journey from the passenger seat in Northern Maine, to steering an innovative technology
+  company in the auto hauling industry is a testament to the power of grit, determination, and a
+  deep-seated commitment to revolutionizing the trucking industry. MustDeliver is a reflection of
+  Carrie’s life story and her passion to create a better world for truckers, just like her
+  brothers, who are the unsung heroes of American industry. 
 
-Our mission is to maintain a fluid partnership that respects and nurtures the human side of the shipping experience.
+  At MustDeliver, we've ingrained the values of hard work, perseverance, and intimate
+  understanding of the trucking world into our technology. Our solution is tailored to simplify
+  the process of transporting vehicles across the United States, assisting drivers and carriers in
+  finding loads faster, managing paperwork electronically, returning home quicker, and maintaining
+  a complete record of their workflow. 
 
-Our daily work is focused on being responsive to feedback and ensuring drivers feel valued and rewarded for what matters most: delivering exceptional service for shippers.
+  But we're not stopping there. Our platform is designed to boost operational efficiency of
+  customers and drivers, grow revenue, and lower overhead costs, all while satisfying the needs of
+  both our customers and our drivers. As we aim to disrupt the auto hauling industry, our roots
+  remain deeply anchored in our founder's early life experiences, shaping our dedication to making
+  the auto hauling market a more efficient, more transparent and easier to operate within for all
+  the key stakeholders. 
 
-Our proprietary technology is designed to optimize both the Carrier's access and time. In turn, providing MustDeliver's customers real transparency into every part of their supply chain allows them to make better decisions each day.
-
-The lack of transparency between Shippers, Carriers, and Freight Brokers leads directly to service failures and high levels of distrust resulting in dissatisfaction, especially between Shippers and Transportation Providers.
+  We are MustDeliver, and we're not just about transporting vehicles. We're about delivering
+  progress, steering change, and propelling the industry towards a brighter, more efficient
+  future. Welcome aboard. Together, let's deliver it!

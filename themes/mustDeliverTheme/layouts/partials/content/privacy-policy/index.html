@@ -1,0 +1,25 @@
+
+<div class="faq-breadcrumbs">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/"><i class="fa-solid fa-house"></i></a></li>
+                <li class="breadcrumb-item"><a href="/support">Support</a></li>
+                <li class="breadcrumb-item"><a href="{{ .Page.Permalink }}">{{ .Title }}</a></li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<section class="privacy-policy-sec p_130 mb-256 pt-0">
+    <div class="container">
+        <div class="privacy-text text-left">
+            <h2>{{ .Title }}</h2>
+            <span>{{ .Params.policyDate }}</span>
+            {{ .Params.policyDescription | safeHTML }}
+        </div>
+        <div class="privacy-list">
+            {{ .Content }}
+        </div>
+    </div>
+
+</section>

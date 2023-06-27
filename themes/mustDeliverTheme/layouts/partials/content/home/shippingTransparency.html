@@ -5,8 +5,10 @@
     <p> {{ .Params.banner_img }} </p>
   </div>
   <div class="banner_img">
-    <div class="background-clouds"></div>
+    {{ $cloud := resources.Get "img/cloud.png" }}
+    <div class="background-clouds" style="background-image: url('{{ $cloud.RelPermalink }}');"></div>
     <div class="bg_cloud">
+      
       {{ $bannerBg := resources.Get "img/banner-bg.png" }}
       <img src="{{ $bannerBg.RelPermalink }}" class="img-fluid" alt="">
     </div>
@@ -15,7 +17,9 @@
           <img src="{{ $bus.RelPermalink }}" class="img-fluid" alt="">
     </div>
     <div class="bg_rotate">
-      <div class="background-line"></div>
+      {{ $bannerLine := resources.Get "img/line-1.png" }}
+  <div class="background-line" style="background-image: url('{{ $bannerLine.RelPermalink }}');"></div>
+
     </div>
   </div>
 </section>
