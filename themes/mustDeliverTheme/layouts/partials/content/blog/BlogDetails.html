@@ -1,5 +1,0 @@
-{{ define "main" }}
-  {{ $post := index .Site.RegularPages "Permalink" .Page.Params.postURL }}
-  <h1>{{ $post.Title }}</h1>
-  <p>{{ $post.Content }}</p>
-{{ end }}
