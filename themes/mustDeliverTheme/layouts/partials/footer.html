@@ -11,13 +11,11 @@
             </div>
           </div>
           <div class="col-md-7 call-col">
-            <h2>Sign Up for FREE Today!</h2>
-            <p>Start shipping and haul with
-              more confidence with
-              MustDeliver</p>
+            <h2>{{ .Site.Params.footerBannerTitle }}</h2>
+            <p>{{ .Site.Params.footerBannerSubTitle }}</p>
               <div class="call_btn_wrapper">
-                <a href="#" class="cta">Shippers</a>
-                <a href="#" class="cta">Auto Haulers</a>
+                <a href="{{ .Site.BaseURL }}{{ .Site.Params.footerBtn1URL }}" class="cta">{{ .Site.Params.footerBtn1Title }}</a>
+                <a href="{{ .Site.BaseURL }}{{ .Site.Params.footerBtn2URL }}" class="cta">{{ .Site.Params.footerBtn2Title }}</a>
             </div>
           </div>
          
@@ -34,45 +32,40 @@
             <div class="folow">
               <h6>Follow us</h6>
               <ul class="social-link">
-                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="{{ .Site.Params.facebook }}"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="{{ .Site.Params.instagram }}"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="{{ .Site.Params.twitter }}"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="{{ .Site.Params.linkedin }}"><i class="fa-brands fa-linkedin"></i></a></li>
               </ul>
             </div>
           </div>
+          {{ range .Site.Params.footerContent }}
           <div class="col-lg-2 col-md-6 footer-col">
-            <h6>For Carriers</h6>
+            <h6>{{ .footerTitle }}s</h6>
             <ul class="footer_menu">
-              <li><a href="#">Carrier Overview </a></li>
-              <li><a href="#"> Google Play Download</a></li>
-              <li><a href="#">Apple Store Download</a></li>
-              <li><a href="#">FAQs</a></li>
+                {{ range .footerpages }}
+                  <li><a href="{{ .Site.BaseURL }}/{{ .url }}"> {{ .name }}</a></li>
+                {{ end }}
             </ul>
           </div>
-          <div class="col-lg-3 col-md-6 footer-col">
-            <h6>For Shippers</h6>
-            <ul class="footer_menu">
-              <li><a href="#">Shipper Overview</a></li>
-              <li><a href="#">Sign-Up Now </a></li>
-              <li><a href="#">Shipper FAQs</a></li>
-            </ul>
-          </div>
+          {{ end }}
           <div class="col-lg-3 col-md-6 footer-col">
             
             <h6>Contact MustDeliver</h6>
             <b>Phone:</b> <br>
-            1 833 933 1833 <br>
-
+            {{ range .Site.Params.contactNumber }}
+              {{ .number }}
+            {{ end }}
             <span class="pt-5 d-block"> <b>Email:</b> <br>
-              (Carrier): carrier@mustdeliver.com <br>
-              (Shipper): shipper@mustdeliver.com
+              {{ range .Site.Params.contactEmail }}
+                {{ .email }}
+              {{ end }}
             </span>
             </p>
             <ul class="footer_menu">
-              <li><a href="/carrier">Careers</a></li>
-              <li><a href="/support">Support</a></li>
-              <li><a href="/blog">Blog</a></li>
+              {{ range .Site.Params.footer_menu }}
+                <li><a href="{{ .Site.BaseURL }}{{ .url }}">{{ .name }}</a></li>
+              {{ end }}
             </ul>
           </div>
         </div>
@@ -91,6 +84,7 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="ploicy-links">
+              
               <a href="/privacy-policy">Privacy Policy</a>
               <a href="/privacy-policy">Terms of Service</a>
             </div>

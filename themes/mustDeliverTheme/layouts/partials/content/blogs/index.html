@@ -1,0 +1,45 @@
+<div class="faq-breadcrumbs">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/"><i class="fa-solid fa-house"></i></a></li>
+                <li class="breadcrumb-item"><a href="/blogs">Blog</a></li>
+                <li class="breadcrumb-item"><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<section class="blog-details-sec p_130 pt-0 mb-256">
+    <div class="container">
+        <div class="blog-details-text">
+            <h2>{{ .Title }}</h2>
+            {{ $sortedPages := sort .Data.Pages ".Date" }}
+
+            <span>{{ dateFormat "02 Jan, 2006" .Date }}</span>
+            <p>{{ .Params.BlogDetails }}</p>
+        </div>
+        <div class="car-box-img">
+            {{ $image := resources.Get .Params.image }}
+            <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+
+        </div>
+        <div class="text-wrapper">
+            {{ .Content }}
+        </div>
+        <div class="share-box">
+            <div class="share-text">
+                <h5>Share On:</h5>
+
+            </div>
+            <div class="share-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>

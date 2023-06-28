@@ -30,8 +30,11 @@
                 {{ end }}
               </ul>
               <form class="form-inline">
-                <button class="btn btn-light" type="submit">Sign Up</button>
-                <button class="btn btn-primary" type="submit">Login</button>
+                <button class="btn btn-light" onclick="window.location.href = '{{ .Site.BaseURL }}sign-up'" type="button">Sign Up</button>
+                <button class="btn btn-primary" onclick="window.location.href = '{{ .Site.BaseURL }}login'" type="button">Login</button>
+                
+                <!-- <button class="btn btn-light" type="submit">Sign Up</button>
+                <button class="btn btn-primary" type="submit">Login</button> -->
               </form>
             </div>
             

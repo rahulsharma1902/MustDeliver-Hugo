@@ -1,0 +1,44 @@
+<div class="faq-breadcrumbs">
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/"><i class="fa-solid fa-house"></i></a></li>
+                <li class="breadcrumb-item"><a href="/support">Support</a></li>
+                <li class="breadcrumb-item"><a href="{{ .Page.Permalink }}">{{ .Title }}</a></li>
+            </ol>
+        </nav>
+    </div>
+</div>
+
+<section class="tut-sec p_130 pt-0 mb-256">
+    <div class="container">
+        <div class="tut-head">
+            <h2>{{ .Params.mainTitle }}</h2>
+            <h5>{{ .Params.mainSubTitle }}</h5>
+        </div>
+        <div class="over-view">
+            <h3>{{ .Params.videoTitle }}</h3>
+            <p>{{ .Params.videoSubTitle }}</p>
+
+
+            <div class="video-sec">
+                <div class="video-box">
+                    <video controls>
+                        {{ $dummyVideo := resources.Get .Params.dummyVideo }}
+                        <source src="{{ $dummyVideo.RelPermalink }}">
+                    </video>
+                </div>
+                {{ $bgVideo := resources.Get .Params.bgVideo }}
+                <div class="video-thumb" style="background-image: url('{{ $bgVideo.RelPermalink }}');">
+                    <span class="video-btn">
+                        <i class="fa-solid fa-play"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="btns_warpper">
+            <a href="#"><i class="fa-solid fa-arrow-left"></i>Prev</a>
+            <a href="#">Next<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+</section>

@@ -3,6 +3,52 @@ languageCode: en-us
 title: MustDeliver
 theme: mustDeliverTheme
 params:
+  # Here is footer content share Details
+  facebook: "https://facebook.com/target-page"
+  twitter: "https://twitter.com/target-page"
+  instagram: "https://instagram.com/target-page"
+  linkedin: "https://linkedin.com/target-page"
+  contactInfoTitle: "Contact Info"
+  contactNumber: 
+        - number: "1 833 933 1833"
+  contactAddress: 
+        - address: "6 State Street, Suite 308Bangor,\n\n Maine 04401"
+  contactEmail: 
+        - email: "carrier@mustdeliver.com"
+        - email: "shipper@mustdeliver.com"
+  footerBannerTitle: "Sign Up for FREE Today!"
+  footerBannerSubTitle: "Start shipping and haul with more confidence with MustDeliver"
+  footerBtn1Title: "Shippers"
+  footerBtn1URL: "shipper"
+  footerBtn2Title: "Auto Haulers"
+  footerBtn2URL: ""
+  footerContent:
+          - footerTitle: "For Carriers"
+            footerpages:
+                - name: "Carrier Overview"
+                  url: "carrier"
+                - name: "Google Play Download"
+                  url: ""
+                - name: "Apple Store Download"
+                  url: ""
+                - name: "FAQs"
+                  url: "carrier-faqs"
+          - footerTitle: "For Shippers"
+            footerpages:
+                - name: "Shipper Overview"
+                  url: "shipper"
+                - name: "Sign-Up Now "
+                  url: "sign-up"
+                - name: "Shipper FAQs"
+                  url: "shipper-faqs"
+  footer_menu:
+  - name: "Careers"
+    url: "/careers"
+  - name: "Support"
+    url: "/support"
+  - name: "Blog"
+    url: "/blogs"
+    # This is your Header menu you can add or change header here
   mainMenu:
     - name: Home
       url: /home
@@ -34,12 +80,5 @@ params:
         - name: Carrier Tracking, Completing Loads
           url: /tracking
 
-contactInfoTitle: "Contact Info"
-contactNumber: 
-        - number: "1 833 933 1833"
 
-contactAddress: 
-        - address: "6 State Street, Suite 308Bangor,\n\n Maine 04401"
-contactEmail: 
-        - email: "carrier@mustdeliver.com"
-        - email: "shipper@mustdeliver.com"
+

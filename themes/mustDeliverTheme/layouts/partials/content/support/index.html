@@ -24,6 +24,7 @@
         </div>
         <div class="row">
             {{ range .Params.supportDetails }}
+            
             <div class="col-md-4">
                 <div class="support-box">
                     <div class="support-icon">
@@ -31,11 +32,12 @@
                         <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
                     </div>
                     <div class="support-text">
-                        <h5>{{ .title }}</h5>
+                        <a href="{{ .Site.BaseURL }}/{{ .url }}"> <h5>{{ .title }}</h5></a>
                         <p>{{ .description }}</p>
                     </div>
                 </div>
             </div>
+            
             {{ end }}
         </div>
     </div>

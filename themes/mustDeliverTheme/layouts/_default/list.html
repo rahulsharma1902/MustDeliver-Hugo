@@ -1,8 +1,17 @@
 {{ define "main" }}
-  {{ $sortedPages := sort .Data.Pages "Params.order" }}
-  {{ range $sortedPages }}
-    {{ $partialPath := printf "content/%s%s.html" .File.Dir .File.BaseFileName }}
-    {{ $partialExists := fileExists $partialPath }}
-    {{ partial $partialPath . }}
+  {{ if in .RelPermalink "blogs" }}
+    {{ partial "content/blogs/main.html" . }}
+    <!-- {{ $sortedPages := sort .Data.Pages "Params.order" }}
+    {{ range $sortedPages }}
+      <h3>Title: {{ .Title }}</h3>
+      <p>URL: {{ .Permalink }}</p>
+    {{ end }} -->
+  {{ else }}
+    {{ $sortedPages := sort .Data.Pages "Params.order" }}
+    {{ range $sortedPages }}
+      {{ $partialPath := printf "content/%s%s.html" .File.Dir .File.BaseFileName }}
+      {{ $partialExists := fileExists $partialPath }}
+      {{ partial $partialPath . }}
+    {{ end }}
   {{ end }}
 {{ end }}

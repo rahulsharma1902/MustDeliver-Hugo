@@ -1,0 +1,41 @@
+<section class="login-sec p_130 mb-256">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="login-img">
+                    {{ $image := resources.Get .Params.image }}
+                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="login-text">
+                    <h2>Welcome back.</h2>
+                    <form class="login-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="User Name">
+                        </div>
+                        <div class="form-group position-relative">
+                            <input type="password" class="form-control" placeholder="Password">
+                            <i class="far fa-eye" id="togglePassword"></i>
+                        </div>
+                        <div class="form-group log-wrapper">
+                            <label class="custom-check" id="check1">
+                                <input type="checkbox" for="check1">
+                                <span class="check-box"></span>
+                                Remember me
+                            </label>
+                            <div class="forgot">
+                                <p>Forget Password?</p>
+                            </div>
+                        </div>
+                        <div class="login-btns">
+                            <a href="/login" class="cta">Log In</a>
+                            <a href="/sign-up" class="cta cta-light">Sign Up</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
