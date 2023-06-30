@@ -173,7 +173,7 @@ a:hover {
 
 .banner_wrapper .background-clouds {
     margin: 1px;
-    background-image: url(../img/cloud.png);
+    background-image: url(../img/cloud.svg);
     animation: clouds 60s linear infinite;
     animation-fill-mode: both;
     position: absolute;
@@ -191,7 +191,7 @@ a:hover {
 
 .banner_wrapper .background-line {
     margin: 1px;
-    background-image: url(../img/line-1.png);
+    background-image: url(../img/line-1.svg);
     animation: line 20s linear infinite;
     animation-fill-mode: both;
     position: absolute;

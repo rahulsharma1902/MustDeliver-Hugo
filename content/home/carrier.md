@@ -5,7 +5,7 @@ draft: false
 order: 5
 carrier_sections:
   - title: "Carrier Side Control"
-    image: "img/Carrier-Side.png"
+    image: "img/Carrier-Side.svg"
     description: "We help Carriers spend less time finding loads and more time making money."
     features:
       - "Set Fleet Preferences"
@@ -14,7 +14,7 @@ carrier_sections:
       - "Direct, In-App Communication With The MustDeliver Team"
     button_text: "Find Out More"
   - title: "Ship without Doubt"
-    image: "img/Ship-without.png"
+    image: "img/Ship-without.svg"
     description: "We help shippers have a more informed shipping experience."
     features:
       - "Easy To Use Shipping Dashboard"

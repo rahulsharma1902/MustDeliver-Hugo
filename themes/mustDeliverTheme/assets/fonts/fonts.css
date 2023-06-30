@@ -1,287 +1,287 @@
 @font-face {
     font-family: 'Filson Pro';
-    src: url('FilsonPro-ThinItalic.eot');
+    src: url('/fonts/FilsonPro-ThinItalic.eot');
     src: local('Filson Pro Thin Italic'), local('FilsonPro-ThinItalic'),
-        url('FilsonPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-ThinItalic.woff2') format('woff2'),
-        url('FilsonPro-ThinItalic.woff') format('woff'),
-        url('FilsonPro-ThinItalic.ttf') format('truetype');
+        url('/fonts/FilsonPro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-ThinItalic.woff2') format('woff2'),
+        url('/fonts/FilsonPro-ThinItalic.woff') format('woff'),
+        url('/fonts/FilsonPro-ThinItalic.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Filson Pro';
-    src: url('FilsonPro-Thin.eot');
+    src: url('/fonts/FilsonPro-Thin.eot');
     src: local('Filson Pro Thin'), local('FilsonPro-Thin'),
-        url('FilsonPro-Thin.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-Thin.woff2') format('woff2'),
-        url('FilsonPro-Thin.woff') format('woff'),
-        url('FilsonPro-Thin.ttf') format('truetype');
+        url('/fonts/FilsonPro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-Thin.woff2') format('woff2'),
+        url('/fonts/FilsonPro-Thin.woff') format('woff'),
+        url('/fonts/FilsonPro-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Filson Pro Book';
-    src: url('FilsonPro-BookItalic.eot');
+    src: url('/fonts/FilsonPro-BookItalic.eot');
     src: local('Filson Pro Book Italic'), local('FilsonPro-BookItalic'),
-        url('FilsonPro-BookItalic.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-BookItalic.woff2') format('woff2'),
-        url('FilsonPro-BookItalic.woff') format('woff'),
-        url('FilsonPro-BookItalic.ttf') format('truetype');
+        url('/fonts/FilsonPro-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-BookItalic.woff2') format('woff2'),
+        url('/fonts/FilsonPro-BookItalic.woff') format('woff'),
+        url('/fonts/FilsonPro-BookItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Filson Pro';
-    src: url('FilsonPro-Medium.eot');
+    src: url('/fonts/FilsonPro-Medium.eot');
     src: local('Filson Pro Medium'), local('FilsonPro-Medium'),
-        url('FilsonPro-Medium.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-Medium.woff2') format('woff2'),
-        url('FilsonPro-Medium.woff') format('woff'),
-        url('FilsonPro-Medium.ttf') format('truetype');
+        url('/fonts/FilsonPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-Medium.woff2') format('woff2'),
+        url('/fonts/FilsonPro-Medium.woff') format('woff'),
+        url('/fonts/FilsonPro-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Filson Pro';
-    src: url('FilsonPro-LightItalic.eot');
+    src: url('/fonts/FilsonPro-LightItalic.eot');
     src: local('Filson Pro Light Italic'), local('FilsonPro-LightItalic'),
-        url('FilsonPro-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-LightItalic.woff2') format('woff2'),
-        url('FilsonPro-LightItalic.woff') format('woff'),
-        url('FilsonPro-LightItalic.ttf') format('truetype');
+        url('/fonts/FilsonPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-LightItalic.woff2') format('woff2'),
+        url('/fonts/FilsonPro-LightItalic.woff') format('woff'),
+        url('/fonts/FilsonPro-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Filson Pro Book';
-    src: url('FilsonPro-Book.eot');
+    src: url('/fonts/FilsonPro-Book.eot');
     src: local('Filson Pro Book'), local('FilsonPro-Book'),
-        url('FilsonPro-Book.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-Book.woff2') format('woff2'),
-        url('FilsonPro-Book.woff') format('woff'),
-        url('FilsonPro-Book.ttf') format('truetype');
+        url('/fonts/FilsonPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-Book.woff2') format('woff2'),
+        url('/fonts/FilsonPro-Book.woff') format('woff'),
+        url('/fonts/FilsonPro-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Filson Pro';
-    src: url('FilsonPro-BoldItalic.eot');
+    src: url('/fonts/FilsonPro-BoldItalic.eot');
     src: local('Filson Pro Bold Italic'), local('FilsonPro-BoldItalic'),
-        url('FilsonPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-BoldItalic.woff2') format('woff2'),
-        url('FilsonPro-BoldItalic.woff') format('woff'),
-        url('FilsonPro-BoldItalic.ttf') format('truetype');
+        url('/fonts/FilsonPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-BoldItalic.woff2') format('woff2'),
+        url('/fonts/FilsonPro-BoldItalic.woff') format('woff'),
+        url('/fonts/FilsonPro-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Filson Pro';
-    src: url('FilsonPro-MediumItalic.eot');
+    src: url('/fonts/FilsonPro-MediumItalic.eot');
     src: local('Filson Pro Medium Italic'), local('FilsonPro-MediumItalic'),
-        url('FilsonPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-MediumItalic.woff2') format('woff2'),
-        url('FilsonPro-MediumItalic.woff') format('woff'),
-        url('FilsonPro-MediumItalic.ttf') format('truetype');
+        url('/fonts/FilsonPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-MediumItalic.woff2') format('woff2'),
+        url('/fonts/FilsonPro-MediumItalic.woff') format('woff'),
+        url('/fonts/FilsonPro-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Filson Pro';
-    src: url('FilsonPro-BlackItalic.eot');
+    src: url('/fonts/FilsonPro-BlackItalic.eot');
     src: local('Filson Pro Black Italic'), local('FilsonPro-BlackItalic'),
-        url('FilsonPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-BlackItalic.woff2') format('woff2'),
-        url('FilsonPro-BlackItalic.woff') format('woff'),
-        url('FilsonPro-BlackItalic.ttf') format('truetype');
+        url('/fonts/FilsonPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-BlackItalic.woff2') format('woff2'),
+        url('/fonts/FilsonPro-BlackItalic.woff') format('woff'),
+        url('/fonts/FilsonPro-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Filson Pro';
-    src: url('FilsonPro-Heavy.eot');
+    src: url('/fonts/FilsonPro-Heavy.eot');
     src: local('Filson Pro Heavy'), local('FilsonPro-Heavy'),
-        url('FilsonPro-Heavy.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-Heavy.woff2') format('woff2'),
-        url('FilsonPro-Heavy.woff') format('woff'),
-        url('FilsonPro-Heavy.ttf') format('truetype');
+        url('/fonts/FilsonPro-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-Heavy.woff2') format('woff2'),
+        url('/fonts/FilsonPro-Heavy.woff') format('woff'),
+        url('/fonts/FilsonPro-Heavy.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Filson Pro';
-    src: url('FilsonPro-Light.eot');
+    src: url('/fonts/FilsonPro-Light.eot');
     src: local('Filson Pro Light'), local('FilsonPro-Light'),
-        url('FilsonPro-Light.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-Light.woff2') format('woff2'),
-        url('FilsonPro-Light.woff') format('woff'),
-        url('FilsonPro-Light.ttf') format('truetype');
+        url('/fonts/FilsonPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-Light.woff2') format('woff2'),
+        url('/fonts/FilsonPro-Light.woff') format('woff'),
+        url('/fonts/FilsonPro-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Filson Pro';
-    src: url('FilsonPro-Regular.eot');
+    src: url('/fonts/FilsonPro-Regular.eot');
     src: local('Filson Pro Regular'), local('FilsonPro-Regular'),
-        url('FilsonPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-Regular.woff2') format('woff2'),
-        url('FilsonPro-Regular.woff') format('woff'),
-        url('FilsonPro-Regular.ttf') format('truetype');
+        url('/fonts/FilsonPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-Regular.woff2') format('woff2'),
+        url('/fonts/FilsonPro-Regular.woff') format('woff'),
+        url('/fonts/FilsonPro-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Filson Pro';
-    src: url('FilsonPro-Bold.eot');
+    src: url('/fonts/FilsonPro-Bold.eot');
     src: local('Filson Pro Bold'), local('FilsonPro-Bold'),
-        url('FilsonPro-Bold.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-Bold.woff2') format('woff2'),
-        url('FilsonPro-Bold.woff') format('woff'),
-        url('FilsonPro-Bold.ttf') format('truetype');
+        url('/fonts/FilsonPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-Bold.woff2') format('woff2'),
+        url('/fonts/FilsonPro-Bold.woff') format('woff'),
+        url('/fonts/FilsonPro-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Filson Pro';
-    src: url('FilsonPro-RegularItalic.eot');
+    src: url('/fonts/FilsonPro-RegularItalic.eot');
     src: local('Filson Pro Regular Italic'), local('FilsonPro-RegularItalic'),
-        url('FilsonPro-RegularItalic.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-RegularItalic.woff2') format('woff2'),
-        url('FilsonPro-RegularItalic.woff') format('woff'),
-        url('FilsonPro-RegularItalic.ttf') format('truetype');
+        url('/fonts/FilsonPro-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-RegularItalic.woff2') format('woff2'),
+        url('/fonts/FilsonPro-RegularItalic.woff') format('woff'),
+        url('/fonts/FilsonPro-RegularItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Filson Pro';
-    src: url('FilsonPro-HeavyItalic.eot');
+    src: url('/fonts/FilsonPro-HeavyItalic.eot');
     src: local('Filson Pro Heavy Italic'), local('FilsonPro-HeavyItalic'),
-        url('FilsonPro-HeavyItalic.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-HeavyItalic.woff2') format('woff2'),
-        url('FilsonPro-HeavyItalic.woff') format('woff'),
-        url('FilsonPro-HeavyItalic.ttf') format('truetype');
+        url('/fonts/FilsonPro-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-HeavyItalic.woff2') format('woff2'),
+        url('/fonts/FilsonPro-HeavyItalic.woff') format('woff'),
+        url('/fonts/FilsonPro-HeavyItalic.ttf') format('truetype');
     font-weight: 800;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Filson Pro';
-    src: url('FilsonPro-Black.eot');
+    src: url('/fonts/FilsonPro-Black.eot');
     src: local('Filson Pro Black'), local('FilsonPro-Black'),
-        url('FilsonPro-Black.eot?#iefix') format('embedded-opentype'),
-        url('FilsonPro-Black.woff2') format('woff2'),
-        url('FilsonPro-Black.woff') format('woff'),
-        url('FilsonPro-Black.ttf') format('truetype');
+        url('/fonts/FilsonPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/FilsonPro-Black.woff2') format('woff2'),
+        url('/fonts/FilsonPro-Black.woff') format('woff'),
+        url('/fonts/FilsonPro-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gibson';
-    src: url('Gibson-SemiBoldItalic.eot');
+    src: url('/fonts/Gibson-SemiBoldItalic.eot');
     src: local('Gibson SemiBold Italic'), local('Gibson-SemiBoldItalic'),
-        url('Gibson-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('Gibson-SemiBoldItalic.woff2') format('woff2'),
-        url('Gibson-SemiBoldItalic.woff') format('woff'),
-        url('Gibson-SemiBoldItalic.ttf') format('truetype');
+        url('/fonts/Gibson-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gibson-SemiBoldItalic.woff2') format('woff2'),
+        url('/fonts/Gibson-SemiBoldItalic.woff') format('woff'),
+        url('/fonts/Gibson-SemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Gibson';
-    src: url('Gibson-Light.eot');
+    src: url('/fonts/Gibson-Light.eot');
     src: local('Gibson Light'), local('Gibson-Light'),
-        url('Gibson-Light.eot?#iefix') format('embedded-opentype'),
-        url('Gibson-Light.woff2') format('woff2'),
-        url('Gibson-Light.woff') format('woff'),
-        url('Gibson-Light.ttf') format('truetype');
+        url('/fonts/Gibson-Light.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gibson-Light.woff2') format('woff2'),
+        url('/fonts/Gibson-Light.woff') format('woff'),
+        url('/fonts/Gibson-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gibson';
-    src: url('Gibson-LightItalic.eot');
+    src: url('/fonts/Gibson-LightItalic.eot');
     src: local('Gibson Light Italic'), local('Gibson-LightItalic'),
-        url('Gibson-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('Gibson-LightItalic.woff2') format('woff2'),
-        url('Gibson-LightItalic.woff') format('woff'),
-        url('Gibson-LightItalic.ttf') format('truetype');
+        url('/fonts/Gibson-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gibson-LightItalic.woff2') format('woff2'),
+        url('/fonts/Gibson-LightItalic.woff') format('woff'),
+        url('/fonts/Gibson-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Gibson';
-    src: url('Gibson-Italic.eot');
+    src: url('/fonts/Gibson-Italic.eot');
     src: local('Gibson Italic'), local('Gibson-Italic'),
-        url('Gibson-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Gibson-Italic.woff2') format('woff2'),
-        url('Gibson-Italic.woff') format('woff'),
-        url('Gibson-Italic.ttf') format('truetype');
+        url('/fonts/Gibson-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gibson-Italic.woff2') format('woff2'),
+        url('/fonts/Gibson-Italic.woff') format('woff'),
+        url('/fonts/Gibson-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Gibson';
-    src: url('Gibson-Bold.eot');
+    src: url('/fonts/Gibson-Bold.eot');
     src: local('Gibson Bold'), local('Gibson-Bold'),
-        url('Gibson-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Gibson-Bold.woff2') format('woff2'),
-        url('Gibson-Bold.woff') format('woff'),
-        url('Gibson-Bold.ttf') format('truetype');
+        url('/fonts/Gibson-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gibson-Bold.woff2') format('woff2'),
+        url('/fonts/Gibson-Bold.woff') format('woff'),
+        url('/fonts/Gibson-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gibson';
-    src: url('Gibson.eot');
+    src: url('/fonts/Gibson.eot');
     src: local('Gibson'),
-        url('Gibson.eot?#iefix') format('embedded-opentype'),
-        url('Gibson.woff2') format('woff2'),
-        url('Gibson.woff') format('woff'),
-        url('Gibson.ttf') format('truetype');
+        url('/fonts/Gibson.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gibson.woff2') format('woff2'),
+        url('/fonts/Gibson.woff') format('woff'),
+        url('/fonts/Gibson.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gibson';
-    src: url('Gibson-BoldItalic.eot');
+    src: url('/fonts/Gibson-BoldItalic.eot');
     src: local('Gibson Bold Italic'), local('Gibson-BoldItalic'),
-        url('Gibson-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('Gibson-BoldItalic.woff2') format('woff2'),
-        url('Gibson-BoldItalic.woff') format('woff'),
-        url('Gibson-BoldItalic.ttf') format('truetype');
+        url('/fonts/Gibson-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gibson-BoldItalic.woff2') format('woff2'),
+        url('/fonts/Gibson-BoldItalic.woff') format('woff'),
+        url('/fonts/Gibson-BoldItalic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Gibson';
-    src: url('Gibson-SemiBold.eot');
+    src: url('/fonts/Gibson-SemiBold.eot');
     src: local('Gibson SemiBold'), local('Gibson-SemiBold'),
-        url('Gibson-SemiBold.eot?#iefix') format('embedded-opentype'),
-        url('Gibson-SemiBold.woff2') format('woff2'),
-        url('Gibson-SemiBold.woff') format('woff'),
-        url('Gibson-SemiBold.ttf') format('truetype');
+        url('/fonts/Gibson-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/Gibson-SemiBold.woff2') format('woff2'),
+        url('/fonts/Gibson-SemiBold.woff') format('woff'),
+        url('/fonts/Gibson-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }

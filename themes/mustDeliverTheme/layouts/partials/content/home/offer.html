@@ -11,7 +11,7 @@
               {{ range .Params.offer_items }}
               <div class="Offer_list">
                 {{ $image := resources.Get .image }}
-                <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                 <div class="serve_text">
                   <h3>{{ .title }}</h3>
                   <p>{{ .description }}</p>

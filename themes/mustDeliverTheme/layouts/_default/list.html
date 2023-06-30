@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ if in .RelPermalink "blogs" }}
+  {{ if in .Permalink "blogs" }}
     {{ partial "content/blogs/main.html" . }}
     <!-- {{ $sortedPages := sort .Data.Pages "Params.order" }}
     {{ range $sortedPages }}

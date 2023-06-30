@@ -2,27 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on MustDeliver</title>
-    <link>/home/</link>
+    <link>https://hugo.sagmetic.com/home/</link>
     <description>Recent content in Homes on MustDeliver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jun 2023 18:23:45 +0530</lastBuildDate><atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jun 2023 13:52:09 +0530</lastBuildDate><atom:link href="https://hugo.sagmetic.com/home/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Serve</title>
-      <link>/home/serve/</link>
+      <title>Carrier</title>
+      <link>https://hugo.sagmetic.com/home/carrier/</link>
+      <pubDate>Mon, 26 Jun 2023 13:52:09 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/home/carrier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What We Offer</title>
+      <link>https://hugo.sagmetic.com/home/offer/</link>
+      <pubDate>Mon, 26 Jun 2023 13:46:00 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/home/offer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Must Deliver</title>
+      <link>https://hugo.sagmetic.com/home/mustdeliver/</link>
       <pubDate>Fri, 23 Jun 2023 18:23:45 +0530</pubDate>
       
-      <guid>/home/serve/</guid>
+      <guid>https://hugo.sagmetic.com/home/mustdeliver/</guid>
+      <description>MustDeliver provides automotive shippers (auto dealerships, auto auctions, online vehicleexchanges, car manufacturers &amp;amp; traditional brokers) an optimized end-to-end logisticsplatform which connects them to carriers, while using AI/ML technology for maximumefficiency and user convenience. Real time tracking tools and updated ETA’s demonstrateour commitment to addressing our customers’ top concerns regarding the transport of avaluable asset. Our platform services B2B marketplace transactions as well as providingSaaS tool solutions. . MustDeliver&amp;rsquo;s operating focus is in the US and Canada.</description>
+    </item>
+    
+    <item>
+      <title>What We Serve</title>
+      <link>https://hugo.sagmetic.com/home/serve/</link>
+      <pubDate>Fri, 23 Jun 2023 18:23:45 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/home/serve/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shipping Transparency</title>
-      <link>/home/shippingtransparency/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://hugo.sagmetic.com/home/shippingtransparency/</link>
+      <pubDate>Tue, 23 May 2023 18:23:45 +0530</pubDate>
       
-      <guid>/home/shippingtransparency/</guid>
-      <description></description>
+      <guid>https://hugo.sagmetic.com/home/shippingtransparency/</guid>
+      <description>Content for Shipping Transparency page.</description>
     </item>
     
   </channel>

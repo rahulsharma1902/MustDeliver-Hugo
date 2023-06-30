@@ -107,6 +107,7 @@ a:hover {
     line-height: 19px;
     position: relative;
     color: #070742;
+    display: inline-block;
 }
 
 .header_wrapper nav.navbar .navbar-nav li a.nav-link:after {
@@ -119,7 +120,9 @@ a:hover {
     transition: all .3s linear;
     background: #6F89F0;
 }
-
+.cus-drop i{
+    transition: all .3s linear;
+}
 .header_wrapper nav.navbar .navbar-nav li a.nav-link:hover::after {
     width: 100%;
 }
@@ -170,7 +173,7 @@ a:hover {
 
 .banner_wrapper .background-clouds {
     margin: 1px;
-    background-image: url(../img/cloud.png);
+    background-image: url(../img/cloud.svg);
     animation: clouds 60s linear infinite;
     animation-fill-mode: both;
     position: absolute;
@@ -188,7 +191,7 @@ a:hover {
 
 .banner_wrapper .background-line {
     margin: 1px;
-    background-image: url(../img/line-1.png);
+    background-image: url(../img/line-1.svg);
     animation: line 20s linear infinite;
     animation-fill-mode: both;
     position: absolute;
@@ -1326,12 +1329,14 @@ input[type="checkbox"] {
 .login-btns .cta.cta-light {
     margin-left: 20px;
 }
+
 #togglePassword {
     position: absolute;
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
 }
+
 .blog-box {
     position: relative;
     height: 100%;
@@ -1353,15 +1358,18 @@ input[type="checkbox"] {
     width: 100%;
     transition: all .3s linear;
 }
+
 .blog_wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 45px;
 }
-.blog-box:hover .blog-img img{
+
+.blog-box:hover .blog-img img {
     transform: scale(1.03);
 }
+
 .blog-box:hover .blog-text {
     background-color: transparent;
     color: #fff;
@@ -1371,14 +1379,17 @@ input[type="checkbox"] {
 .blog-box:hover .blog-text h5 {
     color: #fff;
 }
-.blog-img{
+
+.blog-img {
     position: relative;
     overflow: hidden;
 }
-.blog-box:hover .blog-img:after{
+
+.blog-box:hover .blog-img:after {
     opacity: 0.5;
 }
-.blog-img:after{
+
+.blog-img:after {
     content: "";
     position: absolute;
     top: 0;
@@ -1388,20 +1399,24 @@ input[type="checkbox"] {
     background: #6F89F0;
     opacity: 0;
 }
+
 .blog-text h5 {
     margin: 10px 0px 29px;
 }
 
-.blog-text > span {
+.blog-text>span {
     font-size: 16px;
     color: #000;
 }
-.blog-box:hover .blog-text > span{
+
+.blog-box:hover .blog-text>span {
     color: #FFFFFF;
 }
-.blog-sec .row > div{
+
+.blog-sec .row>div {
     margin-bottom: 30px;
 }
+
 .drop-down {
     position: relative;
 }
@@ -1427,14 +1442,17 @@ input[type="checkbox"] {
     padding: 10px 10px 7px;
     font-size: 14px;
 }
+
 .drop-down:hover .drop-menu {
     opacity: 1;
     visibility: visible;
 }
-.drop-down:hover .cus-drop i{
+
+.drop-down:hover .cus-drop i {
     transform: rotate(180deg);
 
 }
+
 .privacy-text {
     padding-bottom: 48px;
 }
@@ -1452,13 +1470,16 @@ input[type="checkbox"] {
     margin-bottom: 23px;
     display: block;
 }
+
 .blog-details-sec .car-box-img {
     text-align: center;
     margin: 50px 0;
 }
+
 .blog-details-sec .text-wrapper {
     margin-bottom: 40px;
 }
+
 .blog-details-sec .share-box {
     display: flex;
     background: #F5F5F5;
@@ -1469,17 +1490,84 @@ input[type="checkbox"] {
     padding: 30px 42px;
     align-items: center;
 }
+
 .blog-details-sec .share-text h5 {
     margin: 0;
 }
+
 .blog-details-sec .share-icons i {
     margin-right: 20px;
     font-size: 16px;
 }
+
 .blog-details-sec .share-icons i:last-child {
     margin-right: 0;
     display: inline-block;
 }
+
 .blog-details-sec .share-box {
     padding: 20px;
+}
+
+.team-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.team-social {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0px;
+}
+
+.team-box {
+    text-align: center;
+}
+
+.team-social li a {
+    color: #b1a5a5;
+}
+
+.team-content h5 {
+    text-transform: uppercase;
+}
+
+.team-content {
+    padding-top: 40px;
+}
+
+.team-content span {
+    display: inline-block;
+    padding-bottom: 15px;
+    color: #6f89f0;
+}
+
+.team-head {
+    padding-bottom: 50px;
+}
+
+.team-sec .row>div {
+    margin-bottom: 40px;
+}
+
+.read-text {
+    padding-top: 20px;
+    display: none;
+}
+
+.read-text.read {
+    display: block;
+}
+
+.tourque-sec button {
+    border: none;
+}
+.tourque-sec button:focus{
+    outline: none;
 }

@@ -17,24 +17,24 @@ mainDescription: "MustDeliver Driver is a FREE mobile app that helps owner opera
 
 mobileApplication: 
             - mobileTitle: "Android users click below to install:"
-              mobileImage: "img/play.png"
+              mobileImage: "img/play.svg"
             - mobileTitle: "iPhone users click below to install:"
-              mobileImage: "img/app store.png"
+              mobileImage: "img/app store.svg"
 
 
 RegistrationGuideTitle: "App Registration Guide"
 RegistrationGuide: 
-            - image: "img/guide1.png"
+            - image: "img/guide1.svg"
               description: |
                     Upon opening the MustDeliver app for the first time, you'll be asked if MustDeliver can
                     have access to your location. Select "While using the app" for now. Once registration is
                     complete, this will be updated. Note: Android is shown, iPhone location access process
                     may be slightly different.
 
-            - image: "img/guide2.png"
+            - image: "img/guide2.svg"
               description: "After dismissing the location prompt you will see the login screen. Tap the first time
                             user? Register button to register a new driver account."
-            - image: "img/guide3.png"
+            - image: "img/guide3.svg"
               description: "Enter your 10-digit Mobile Number, MC# and Truck/Trailer type and tap NEXT. Your mobile
                             number and MC# will need to be verified so make sure they are valid and entered
                             correctly"
@@ -43,7 +43,7 @@ registerTitle: "Your Driver Registration Is Now Complete!"
 registerDescription: "At this point you are logged into your driver account but you still have a few more actions to
                 complete before you're ready to search for and book available loads. Those actions are listed under
                 the Notifications settings of your Dashboard."
-registerImage: "img/regs.png"
+registerImage: "img/regs.svg"
 
 
 registrationText: "There are 4 main screens in the MustDeliver Driver app which correspond to the 4 gray
@@ -53,11 +53,11 @@ registrationText: "There are 4 main screens in the MustDeliver Driver app which 
                         icons are:"
 
 registerList: 
-        - image: "img/dash1.png"
+        - image: "img/dash1.svg"
           description: "Dashboard: lists actions and your loads"
-        - image: "img/dash2.png"
+        - image: "img/dash2.svg"
           description: "Dashboard: lists actions and your loads"
-        - image: "img/dash4.png"
+        - image: "img/dash4.svg"
           description: "Dashboard: lists actions and your loads"
 
 reg_listTitle: "Note, many actions listed under notifications on the dashboard can also be completed

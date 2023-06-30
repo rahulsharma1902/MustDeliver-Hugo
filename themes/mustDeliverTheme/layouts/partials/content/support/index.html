@@ -10,7 +10,7 @@
             <div class="col-md-6">
                 <div class="main_banner-img">
                     {{ $mainImage := resources.Get .Params.mainImage }}
-                    <img src="{{ $mainImage.RelPermalink }}" class="img-fluid" alt="">
+                    <img src="{{ $mainImage.Permalink }}" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
                 <div class="support-box">
                     <div class="support-icon">
                         {{ $image := resources.Get .image }}
-                        <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                        <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                     </div>
                     <div class="support-text">
                         <a href="{{ .Site.BaseURL }}/{{ .url }}"> <h5>{{ .title }}</h5></a>

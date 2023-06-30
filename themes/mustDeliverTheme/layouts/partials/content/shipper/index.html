@@ -11,7 +11,7 @@
             <div class="col-md-6">
                 <div class="main_banner-img">
                     {{ $image := resources.Get .Params.MainImage }}
-                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                    <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@
                 <div class="maintain-box">
                     <div class="maintain-icon">
                         {{ $image := resources.Get .image }}
-                        <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                        <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                     </div>
                     <div class="maintanance-text">
                         <h5>{{ .title }}</h5>
@@ -43,7 +43,7 @@
     </div>
 </section>
 {{ $shipperBgImage := resources.Get .Params.shipperBgImage }}
-<section class="deliver-banner" style="background-image: url('{{ $shipperBgImage.RelPermalink }}');">
+<section class="deliver-banner" style="background-image: url('{{ $shipperBgImage.Permalink }}');">
     <div class="container">
         <div class="deliver-text">
             <h2> {{ .Params.shipperInfo}} </h2>
@@ -59,7 +59,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="carrier_img">
                     {{ $image := resources.Get .image }}
-                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                    <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">

@@ -5,20 +5,20 @@
     <p> {{ .Params.banner_img }} </p>
   </div>
   <div class="banner_img">
-    {{ $cloud := resources.Get "img/cloud.png" }}
-    <div class="background-clouds" style="background-image: url('{{ $cloud.RelPermalink }}');"></div>
+    {{ $cloud := resources.Get "img/cloud.svg" }}
+    <div class="background-clouds" style="background-image: url('{{ $cloud.Permalink }}');"></div>
     <div class="bg_cloud">
       
-      {{ $bannerBg := resources.Get "img/banner-bg.png" }}
-      <img src="{{ $bannerBg.RelPermalink }}" class="img-fluid" alt="">
+      {{ $bannerBg := resources.Get "img/banner-bg.svg" }}
+      <img src="{{ $bannerBg.Permalink }}" class="img-fluid" alt="">
     </div>
     <div class="bus_wreap">
-      {{ $bus := resources.Get "img/bus.png" }}
-          <img src="{{ $bus.RelPermalink }}" class="img-fluid" alt="">
+      {{ $bus := resources.Get "img/bus.svg" }}
+          <img src="{{ $bus.Permalink }}" class="img-fluid" alt="">
     </div>
     <div class="bg_rotate">
-      {{ $bannerLine := resources.Get "img/line-1.png" }}
-  <div class="background-line" style="background-image: url('{{ $bannerLine.RelPermalink }}');"></div>
+      {{ $bannerLine := resources.Get "img/line-1.svg" }}
+  <div class="background-line" style="background-image: url('{{ $bannerLine.Permalink }}');"></div>
 
     </div>
   </div>

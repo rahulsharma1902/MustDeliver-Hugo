@@ -10,7 +10,7 @@
             <div class="col-md-6">
                 <div class="main_banner-img">
                     {{ $image := resources.Get .Params.MainImage }}
-                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                    <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -23,7 +23,7 @@
             <div class="col-md-6">
                 <div class="tras-img">
                     {{ $image := resources.Get .Params.transperncyImage }}
-                <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-md-6">
@@ -44,7 +44,7 @@
 <section class="del-box-sec">
     <div class="container">
         {{ $image := resources.Get .Params.delImage }}
-        <div class="del-box" style="background-image: url({{ $image.RelPermalink }});">
+        <div class="del-box" style="background-image: url({{ $image.Permalink }});">
             <h3>"{{ .Params.delHeading }}"</h3>
             <p>{{ .Params.delsubHeading }}</p>
         </div>
@@ -57,7 +57,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="carrier_img">
                     {{ $image := resources.Get .image }}
-                <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">

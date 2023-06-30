@@ -5,7 +5,7 @@ draft: false
 
 mainTitle: "Auto Haul Pricing Engine - AI Optimized"
 mainPara: "A revolutionary AI pricing engine designed specifically for auto transportation and logistics."
-mainImage: "img/pricemodel.png"
+mainImage: "img/pricemodel.svg"
 RequestAccessLink: ""
 
 tourqueTitle: "What is MustDeliver TorqueTM"

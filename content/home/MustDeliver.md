@@ -4,7 +4,7 @@ date: 2023-06-23T18:23:45+05:30
 draft: false
 order: 3
 readMoreLink : /home
-image: img/deliver.png
+image: img/deliver.svg
 ---
 
  MustDeliver provides automotive shippers (auto dealerships, auto auctions, online vehicleexchanges, car

@@ -11,7 +11,7 @@
             <div class="col-md-6">
                 <div class="main_banner-img">
                     {{ $mainBanner := resources.Get .Params.mainBanner }}
-                <img src="{{ $mainBanner.RelPermalink }}" class="img-fluid" alt="">
+                <img src="{{ $mainBanner.Permalink }}" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
                 <div class="team-box">
                     <div class="team-img">
                         {{ $image := resources.Get .image }}
-                        <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                        <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                     </div>
                     <div class="team-content">
                         <h5>{{ .name }}</h5>
@@ -73,7 +73,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="carrier_img">
                     {{ $image := resources.Get .image }}
-                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                    <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">

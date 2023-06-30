@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>MustDeliver</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
       integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,20 +21,21 @@
     <link rel="stylesheet" type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://hugo.sagmetic.com/css/style.css">
     
-    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="https://hugo.sagmetic.com/css/responsive.css">
     
-    <link rel="stylesheet" href="/fonts/fonts.css" />
+    <link rel="stylesheet" href="https://hugo.sagmetic.com/fonts/fonts.css" />
+
 </head>
-<body><header class="header_wrapper " style="margin-bottom: 50%;">
+<body><header class="header_wrapper ">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 head-col">
           <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="javascript:void(0)">
+            <a class="navbar-brand" href="/">
                 
-              <img src="/img/site-logo.png" class="img-fluid" alt="logo">
+              <img src="https://hugo.sagmetic.com/img/site-logo.svg" class="img-fluid" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,74 +45,98 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="javascript:void(0)">Home</a>
+                
+                <li class="nav-item active drop-down">
+                  <a class="nav-link" href="/home">Home</a>
+                  
                 </li>
+                
                 <li class="nav-item drop-down">
-                  <a class="nav-link drop-toggle" href="javascript:void(0)">Platform</a>
+                  <a class="nav-link" href="#ZgotmplZ">Platform</a>
+                  
                   <span class="cus-drop"><i class="fa-solid fa-angle-down"></i></span>
                   <div class="drop-menu">
-                    <a href="#" class="drop-items">Marketplace</a>
-                    <a href="#" class="drop-items">TMS</a>
-                    <a href="#" class="drop-items">Pricing Model</a>
+                    
+                    <a href="/marketplace" class="drop-items">Marketplace</a>
+                    
+                    <a href="/tms" class="drop-items">TMS</a>
+                    
+                    <a href="/pricing" class="drop-items">Pricing Model</a>
+                    
                   </div>
+                  
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="javascript:void(0)">Shippers</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="javascript:void(0)">Carriers</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="javascript:void(0)">About</a>
-                </li>
+                
                 <li class="nav-item drop-down">
-                  <a class="nav-link drop-toggle" href="javascript:void(0)">Support</a>
+                  <a class="nav-link" href="/shipper">Shippers</a>
+                  
+                </li>
+                
+                <li class="nav-item drop-down">
+                  <a class="nav-link" href="/carrier">Carriers</a>
+                  
+                </li>
+                
+                <li class="nav-item drop-down">
+                  <a class="nav-link" href="/about">About</a>
+                  
+                </li>
+                
+                <li class="nav-item drop-down">
+                  <a class="nav-link" href="/support">Support</a>
+                  
                   <span class="cus-drop"><i class="fa-solid fa-angle-down"></i></span>
                   <div class="drop-menu">
-                    <a href="#" class="drop-items"> Shipper FAQ’s</a>
-                    <a href="#" class="drop-items">Carrier FAQ’s</a>
-                    <a href="#" class="drop-items">Carrier Registration Guide</a>
-                    <a href="#" class="drop-items">Carrier Tracking</a>
-                    <a href="#" class="drop-items">Completing Loads</a>
+                    
+                    <a href="/shipper-faqs" class="drop-items">Shipper FAQ’s</a>
+                    
+                    <a href="/carrier-faqs" class="drop-items">Carrier FAQ’s</a>
+                    
+                    <a href="/registration-guid" class="drop-items">Carrier Registration Guide</a>
+                    
+                    <a href="/tracking" class="drop-items">Carrier Tracking, Completing Loads</a>
+                    
                   </div>
+                  
                 </li>
+                
               </ul>
               <form class="form-inline">
-                <button class="btn btn-light" type="submit">Sign Up</button>
-                <button class="btn btn-primary" type="submit">Login</button>
+                <button class="btn btn-light" onclick="window.location.href = 'https:\/\/hugo.sagmetic.com\/sign-up'" type="button">Sign Up</button>
+                <button class="btn btn-primary" onclick="window.location.href = 'https:\/\/hugo.sagmetic.com\/login'" type="button">Login</button>
+                
+                
               </form>
             </div>
+            
           </nav>
         </div>
       </div>
     </div>
+  
   </header>
   <div id="content">
 <main>
-  
-
-  
-  <section class="banner_wrapper">
-  <div class="banner_content text-center">
-    <h1></h1>
-    <p>People Powered : AI Optimized</p>
-  </div>
-  <div class="banner_img">
-    <div class="background-clouds"></div>
-    <div class="bg_cloud">
-      
-      <img src="/img/banner-bg.png" class="img-fluid" alt="">
+    <section class="banner_wrapper">
+    <div class="banner_content text-center">
+      <h1>Shipping Transparency</h1>
+      <p>People Powered : AI Optimized</p>
     </div>
-    <div class="bus_wreap">
-      
-          <img src="/img/bus.png" class="img-fluid" alt="">
+    <div class="banner_img">
+      <div class="background-clouds"></div>
+      <div class="bg_cloud">
+        
+        <img src="https://hugo.sagmetic.com/img/banner-bg.svg" class="img-fluid" alt="">
+      </div>
+      <div class="bus_wreap">
+        
+            <img src="https://hugo.sagmetic.com/img/bus.svg" class="img-fluid" alt="">
+      </div>
+      <div class="bg_rotate">
+        <div class="background-line"></div>
+      </div>
     </div>
-    <div class="bg_rotate">
-      <div class="background-line"></div>
-    </div>
-  </div>
-</section>
+  </section>
 
   <section class="serve_wrapper p_130">
     <div class="container">
@@ -120,12 +144,12 @@
         <div class="col-lg-12">
           <div class="serve_content">
             <div class="text-center">
-              <h2></h2>
+              <h2>What we serve</h2>
             </div>
             <div class="serve_grid">
               <div class="serve_list">
                 
-                <img src="/img/Ship-Without-Doubt.svg" class="img-fluid" alt="">
+                <img src="https://hugo.sagmetic.com/img/Ship-Without-Doubt.svg" class="img-fluid" alt="">
                 <div class="serve_text">
                   <a href="#">Ship Without Doubt</a>
                   <p>A More Confident, Informed Experience</p>
@@ -133,7 +157,7 @@
               </div>
               <div class="serve_list">
                 
-                <img src="/img/Carrier-Side-Control.svg" class="img-fluid" alt="">
+                <img src="https://hugo.sagmetic.com/img/Carrier-Side-Control.svg" class="img-fluid" alt="">
                 <div class="serve_text">
                   <a href="#">Carrier Side Control</a>
                   <p>More Control In The Driver's Seat</p>
@@ -141,7 +165,7 @@
               </div>
               <div class="serve_list">
                 
-                <img src="/img/Here-to-Help%20%281%29.svg" class="img-fluid" alt="">
+                <img src="https://hugo.sagmetic.com/img/Here-to-Help%20%281%29.svg" class="img-fluid" alt="">
                 <div class="serve_text">
                   <a href="#">Here To Help</a>
                   <p>The Support You Need To Get Going</p>
@@ -154,83 +178,229 @@
     </div>
   </section>
 
-    
-  
+  <section class="deliver_wrapper pb_130">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="deliver_content">
+            <h2>Who is MustDeliver?</h2>
+            <p>
+              MustDeliver provides automotive shippers (auto dealerships, auto auctions, online vehicleexchanges, car
+              manufacturers & traditional brokers) an optimized end-to-end logisticsplatform which connects them to
+              carriers, while using AI/ML technology for maximumefficiency and user convenience. Real time tracking
+              tools and updated ETA’s demonstrateour commitment to addressing our customers’ top concerns regarding the
+              transport of avaluable asset. Our platform services B2B marketplace transactions as well as providingSaaS
+              tool solutions. . MustDeliver's operating focus is in the US and Canada.
+            </p>
+            <div class="btn_wreap">
+              <a class="btn cta" href="#" role="button">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-6 offset-lg-1">
+          <div class="deliver_img">
+            
+            <img src="https://hugo.sagmetic.com/img/deliver.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Offer_wrapper p_130">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="serve_content">
+            <div class="offer_hd text-center">
+              <h1>What We Offer</h1>
+              <p>Shippers And Carriers Working Together</p>
+            </div>
+            <div class="Offer_slider">
+              <div class="Offer_list">
+                
+                <img src="https://hugo.sagmetic.com/img/Automated-Pricing.svg" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <h3>Automated<br> Pricing</h3>
+                  <p>Simple, straight forward transactions with no hidden surprises or last minute fee changes.</p>
+                </div>
+              </div>
+              <div class="Offer_list">
+                
+                <img src="https://hugo.sagmetic.com/img/real-time.svg" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <h3>Real Time<br> Shipment Alerts</h3>
+                  <p>Whether it's right on time or there's unexpected delays, you'll know each step of the way.</p>
+                </div>
+              </div>
+              <div class="Offer_list">
+                
+                <img src="https://hugo.sagmetic.com/img/carrier.svg" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <h3>Carrier<br> Side Preferences</h3>
+                  <p>Specifically designed to help Carriers do more of what they want, when they want to do it.</p>
+                </div>
+              </div>
+              <div class="Offer_list">
+                
+                <img src="https://hugo.sagmetic.com/img/Automated-Pricing.svg" class="img-fluid" alt="">
+                <div class="serve_text">
+                  <h3>Automated<br> Pricing</h3>
+                  <p>Simple, straight forward transactions with no hidden surprises or last minute fee changes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="carrier_wrapper p_130 mb-256">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <div class="carrier_img">
+            
+            <img src="https://hugo.sagmetic.com/img/Carrier-Side.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="carrier_content">
+            <h2>Carrier Side Control</h2>
+            <p>We help Carriers spend less time finding loads and more time making money.</p>
+            <ul>
+              <li>Set Fleet Preferences</li>
+              <li>Expedited Payments</li>
+              <li>Straight Forward Pricing</li>
+              <li>Direct, In-App Communication With The MustDeliver Team</li>
+            </ul>
+            <div class="btn_wreap">
+              <a class="btn cta" href="#" role="button">Find Out More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row carrier_wreap pt_130">
+        <div class="col-lg-6 col-md-6">
+          <div class="carrier_img">
+            
+            <img src="https://hugo.sagmetic.com/img/Ship-without.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="carrier_content">
+            <h2>Ship without Doubt</h2>
+            <p>We help shippers have a more informed shipping experience.</p>
+            <ul>
+              <li>Easy To Use Shipping Dashboard</li>
+              <li>Real Time Tracking & ETA</li>
+              <li>Communication With MustDeliver Team & Carriers</li>
+            </ul>
+            <div class="btn_wreap">
+              <a class="btn cta" href="#" role="button">Find Out More</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
 </main>
 
         </div><footer class="site_footer">
     <div class="container">
         
-        <div class="cal_us_box" style="background-image: url('/img/call-is-bg.png');">
+        <div class="cal_us_box" style="background-image: url('https://hugo.sagmetic.com/img/call-is-bg.svg');">
         
         <div class="row call-row align-items-center">
           <div class="col-md-5 d-flex align-items-end dm-n">
             <div class="call-img">
                 
-                <img src="/img/call-us-btn.png" class="img-fluid" alt="callUsBtn">
+                <img src="https://hugo.sagmetic.com/img/call-us-btn.svg" class="img-fluid" alt="callUsBtn">
             </div>
           </div>
           <div class="col-md-7 call-col">
             <h2>Sign Up for FREE Today!</h2>
-            <p>Start shipping and haul with
-              more confidence with
-              MustDeliver</p>
+            <p>Start shipping and haul with more confidence with MustDeliver</p>
               <div class="call_btn_wrapper">
-                <a href="#" class="cta">Shippers</a>
-                <a href="#" class="cta">Auto Haulers</a>
+                <a href="https://hugo.sagmetic.com/shipper" class="cta">Shippers</a>
+                <a href="https://hugo.sagmetic.com/" class="cta">Auto Haulers</a>
             </div>
           </div>
          
         </div>
       </div>
+       
       <div class="menu-footer">
         <div class="row menu_row">
           <div class="col-lg-4 col-md-6 footer-col">
             
-            <a href="#" class="footer-brand"><img src="/img/footer-logo.png"></a>
+            <a href="#" class="footer-brand"><img src="https://hugo.sagmetic.com/img/footer-logo.svg"></a>
             <p>MustDeliver's operating focus is in the US <br> and Canada.</p>
 
             <div class="folow">
               <h6>Follow us</h6>
               <ul class="social-link">
-                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://facebook.com/target-page"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://instagram.com/target-page"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/target-page"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://linkedin.com/target-page"><i class="fa-brands fa-linkedin"></i></a></li>
               </ul>
             </div>
           </div>
+          
           <div class="col-lg-2 col-md-6 footer-col">
-            <h6>For Carriers</h6>
+            <h6>For Carrierss</h6>
             <ul class="footer_menu">
-              <li><a href="#">Carrier Overview </a></li>
-              <li><a href="#"> Google Play Download</a></li>
-              <li><a href="#">Apple Store Download</a></li>
-              <li><a href="#">FAQs</a></li>
+                
+                  <li><a href="/carrier"> Carrier Overview</a></li>
+                
+                  <li><a href="/"> Google Play Download</a></li>
+                
+                  <li><a href="/"> Apple Store Download</a></li>
+                
+                  <li><a href="/carrier-faqs"> FAQs</a></li>
+                
             </ul>
           </div>
-          <div class="col-lg-3 col-md-6 footer-col">
-            <h6>For Shippers</h6>
+          
+          <div class="col-lg-2 col-md-6 footer-col">
+            <h6>For Shipperss</h6>
             <ul class="footer_menu">
-              <li><a href="#">Shipper Overview</a></li>
-              <li><a href="#">Sign-Up Now </a></li>
-              <li><a href="#">Shipper FAQs</a></li>
+                
+                  <li><a href="/shipper"> Shipper Overview</a></li>
+                
+                  <li><a href="/sign-up"> Sign-Up Now </a></li>
+                
+                  <li><a href="/shipper-faqs"> Shipper FAQs</a></li>
+                
             </ul>
           </div>
+          
           <div class="col-lg-3 col-md-6 footer-col">
+            
             <h6>Contact MustDeliver</h6>
             <b>Phone:</b> <br>
-            1 833 933 1833 <br>
-
+            
+              1 833 933 1833
+            
             <span class="pt-5 d-block"> <b>Email:</b> <br>
-              (Carrier): carrier@mustdeliver.com <br>
-              (Shipper): shipper@mustdeliver.com
+              
+                carrier@mustdeliver.com
+              
+                shipper@mustdeliver.com
+              
             </span>
             </p>
             <ul class="footer_menu">
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">Support</a></li>
-              <li><a href="#">Blog</a></li>
+              
+                <li><a href="/carrier">Careers</a></li>
+              
+                <li><a href="/support">Support</a></li>
+              
+                <li><a href="/blogs">Blog</a></li>
+              
             </ul>
           </div>
         </div>
@@ -244,13 +414,14 @@
           <div class="col-lg-5 col-md-6">
             <div class="play-img">
                 
-                <img src="/img/footer-play.png" class="img-fluid" alt="footer-play">
+                <img src="https://hugo.sagmetic.com/img/footer-play.svg" class="img-fluid" alt="footer-play">
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="ploicy-links">
-              <a href="#">Privacy Policy</a>
-              <a href="#">Terms of Service</a>
+              
+              <a href="/privacy-policy">Privacy Policy</a>
+              <a href="/privacy-policy">Terms of Service</a>
             </div>
           </div>
         </div>
@@ -277,6 +448,6 @@
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<script src="/js/script.js"></script>
+<script src="https://hugo.sagmetic.com/js/script.js"></script>
 </body>
 </html>

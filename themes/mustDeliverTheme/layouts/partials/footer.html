@@ -1,13 +1,13 @@
 <footer class="site_footer">
     <div class="container">
-        {{ $callUsBg := resources.Get "img/call-is-bg.png" }}
-        <div class="cal_us_box" style="background-image: url('{{ $callUsBg.RelPermalink }}');">
+        {{ $callUsBg := resources.Get "img/call-is-bg.svg" }}
+        <div class="cal_us_box" style="background-image: url('{{ $callUsBg.Permalink }}');">
         
         <div class="row call-row align-items-center">
           <div class="col-md-5 d-flex align-items-end dm-n">
             <div class="call-img">
-                {{ $callUsBtn := resources.Get "img/call-us-btn.png" }}
-                <img src="{{ $callUsBtn.RelPermalink }}" class="img-fluid" alt="callUsBtn">
+                {{ $callUsBtn := resources.Get "img/call-us-btn.svg" }}
+                <img src="{{ $callUsBtn.Permalink }}" class="img-fluid" alt="callUsBtn">
             </div>
           </div>
           <div class="col-md-7 call-col">
@@ -25,8 +25,8 @@
       <div class="menu-footer">
         <div class="row menu_row">
           <div class="col-lg-4 col-md-6 footer-col">
-            {{ $footerLogo := resources.Get "img/footer-logo.png" }}
-            <a href="#" class="footer-brand"><img src="{{ $footerLogo.RelPermalink }}"></a>
+            {{ $footerLogo := resources.Get "img/footer-logo.svg" }}
+            <a href="#" class="footer-brand"><img src="{{ $footerLogo.Permalink }}"></a>
             <p>MustDeliver's operating focus is in the US <br> and Canada.</p>
 
             <div class="folow">
@@ -78,8 +78,8 @@
           </div>
           <div class="col-lg-5 col-md-6">
             <div class="play-img">
-                {{ $footerPlay := resources.Get "img/footer-play.png" }}
-                <img src="{{ $footerPlay.RelPermalink }}" class="img-fluid" alt="footer-play">
+                {{ $footerPlay := resources.Get "img/footer-play.svg" }}
+                <img src="{{ $footerPlay.Permalink }}" class="img-fluid" alt="footer-play">
             </div>
           </div>
           <div class="col-lg-3 col-md-6">
@@ -113,4 +113,4 @@
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 {{ $scriptJs := resources.Get "js/script.js" }}
-<script src="{{ $scriptJs.RelPermalink }}"></script>
+<script src="{{ $scriptJs.Permalink }}"></script>

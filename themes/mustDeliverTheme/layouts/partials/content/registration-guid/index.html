@@ -12,7 +12,7 @@
                     <h5>{{ .mobileTitle }}</h5>
                     <div class="app_img">
                         {{ $mobileImage := resources.Get .mobileImage }}
-                    <img src="{{ $mobileImage.RelPermalink }}" class="img-fluid" alt="">
+                    <img src="{{ $mobileImage.Permalink }}" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
                 <div class="guide-box">
                     <div class="guide_img">
                         {{ $image := resources.Get .image }}
-                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                    <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                     </div>
                     <div class="guide-text">
                         <p>{{ .description }}</p>
@@ -58,7 +58,7 @@
             <div class="col-md-5">
                 <div class="registration-img">
                     {{ $registerImage := resources.Get .Params.registerImage }}
-                    <img src="{{ $registerImage.RelPermalink }}" class="img-fluid" alt="">
+                    <img src="{{ $registerImage.Permalink }}" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-md-7">
@@ -69,7 +69,7 @@
                         <div class="reg-wrapper">
                             <div class="reg-icon">
                                 {{ $image := resources.Get .image }}
-                            <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                            <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                             </div>
                             <div class="reg-text">
                                 <p>{{ .description }}</p>

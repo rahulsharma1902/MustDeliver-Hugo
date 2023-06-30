@@ -19,10 +19,10 @@
     <link rel="stylesheet" type="text/css"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     {{ $styles := resources.Get "css/style.css" }}
-    <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $styles.Permalink }}">
     {{ $responsive := resources.Get "css/responsive.css" }}
-    <link rel="stylesheet" href="{{ $responsive.RelPermalink }}">
+    <link rel="stylesheet" href="{{ $responsive.Permalink }}">
     {{ $fonts := resources.Get "fonts/fonts.css" }}
-    <link rel="stylesheet" href="{{ $fonts.RelPermalink }}" />
+    <link rel="stylesheet" href="{{ $fonts.Permalink }}" />
 
 </head>

@@ -144,6 +144,10 @@
         width: 70px;
         height: 70px;
     }
+    .team-img img {
+        width: 240px;
+        height: 240px;
+    }
 }
 
 @media only screen and (max-width:1199px) {
@@ -413,6 +417,10 @@
     }
     .head-col{
         position: static;
+    }
+    .team-img img {
+        width: 200px;
+        height: 200px;
     }
 }
 
@@ -719,5 +727,8 @@
 
     .steps-nav ul li:after {
         top: 26px;
+    }
+    .team-head {
+        padding-bottom: 30px;
     }
 }

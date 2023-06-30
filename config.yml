@@ -1,8 +1,7 @@
-baseURL: /
+baseURL: https://hugo.sagmetic.com/
 languageCode: en-us
 title: MustDeliver
 theme: mustDeliverTheme
-
 params:
   # Here is footer content share Details
   facebook: "https://facebook.com/target-page"
@@ -44,7 +43,7 @@ params:
                   url: "shipper-faqs"
   footer_menu:
   - name: "Careers"
-    url: "/careers"
+    url: "/carrier"
   - name: "Support"
     url: "/support"
   - name: "Blog"

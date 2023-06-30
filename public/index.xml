@@ -2,27 +2,217 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MustDeliver</title>
-    <link>/</link>
+    <link>https://hugo.sagmetic.com/</link>
     <description>Recent content on MustDeliver</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Jun 2023 18:23:45 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Jun 2023 14:11:39 +0530</lastBuildDate><atom:link href="https://hugo.sagmetic.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Serve</title>
-      <link>/home/serve/</link>
+      <title>My Third Blog</title>
+      <link>https://hugo.sagmetic.com/blogs/my-third-blog/</link>
+      <pubDate>Wed, 28 Jun 2023 14:11:39 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/blogs/my-third-blog/</guid>
+      <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
+    </item>
+    
+    <item>
+      <title>My First Blog</title>
+      <link>https://hugo.sagmetic.com/blogs/my-first-blog/</link>
+      <pubDate>Wed, 28 Jun 2023 12:54:47 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/blogs/my-first-blog/</guid>
+      <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
+    </item>
+    
+    <item>
+      <title>My Second Blog</title>
+      <link>https://hugo.sagmetic.com/blogs/my-second-blog/</link>
+      <pubDate>Wed, 28 Jun 2023 12:54:47 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/blogs/my-second-blog/</guid>
+      <description>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</description>
+    </item>
+    
+    <item>
+      <title>Carrier Video</title>
+      <link>https://hugo.sagmetic.com/carrier-video/</link>
+      <pubDate>Wed, 28 Jun 2023 11:19:05 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/carrier-video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Login</title>
+      <link>https://hugo.sagmetic.com/login/</link>
+      <pubDate>Wed, 28 Jun 2023 11:10:55 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/login/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sign Up</title>
+      <link>https://hugo.sagmetic.com/sign-up/</link>
+      <pubDate>Wed, 28 Jun 2023 10:47:13 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/sign-up/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://hugo.sagmetic.com/privacy-policy/</link>
+      <pubDate>Tue, 27 Jun 2023 18:41:49 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/privacy-policy/</guid>
+      <description>1. Managing Your Information Preferences You can review and edit your Personal Information by changing the relevant settings in your account. You can opt out of receiving marketing e-mails from us, by clicking on the unsubscribe link at the bottom of many of our e-mails. You are able to opt out of receiving marketing e-mails from us, however, you cannot opt out of receiving all e-mails from us, such as e-mails about the status of your account.</description>
+    </item>
+    
+    <item>
+      <title>Support</title>
+      <link>https://hugo.sagmetic.com/support/</link>
+      <pubDate>Tue, 27 Jun 2023 16:48:40 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/support/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tracking</title>
+      <link>https://hugo.sagmetic.com/tracking/</link>
+      <pubDate>Tue, 27 Jun 2023 13:37:45 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Registration Guid</title>
+      <link>https://hugo.sagmetic.com/registration-guid/</link>
+      <pubDate>Tue, 27 Jun 2023 12:49:34 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/registration-guid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Carrier Faqs</title>
+      <link>https://hugo.sagmetic.com/carrier-faqs/</link>
+      <pubDate>Tue, 27 Jun 2023 12:10:07 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/carrier-faqs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shipper FAQs</title>
+      <link>https://hugo.sagmetic.com/shipper-faqs/</link>
+      <pubDate>Tue, 27 Jun 2023 11:26:23 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/shipper-faqs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Carrier</title>
+      <link>https://hugo.sagmetic.com/carrier/</link>
+      <pubDate>Tue, 27 Jun 2023 11:09:00 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/carrier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shipper</title>
+      <link>https://hugo.sagmetic.com/shipper/</link>
+      <pubDate>Mon, 26 Jun 2023 19:23:30 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/shipper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PricingModel</title>
+      <link>https://hugo.sagmetic.com/pricing/</link>
+      <pubDate>Mon, 26 Jun 2023 18:57:19 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/pricing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tms</title>
+      <link>https://hugo.sagmetic.com/tms/</link>
+      <pubDate>Mon, 26 Jun 2023 16:31:41 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/tms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marketplace</title>
+      <link>https://hugo.sagmetic.com/marketplace/</link>
+      <pubDate>Mon, 26 Jun 2023 15:51:26 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/marketplace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://hugo.sagmetic.com/about/</link>
+      <pubDate>Mon, 26 Jun 2023 14:26:00 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/about/</guid>
+      <description>Her journey from the passenger seat in Northern Maine, to steering an innovative technology company in the auto hauling industry is a testament to the power of grit, determination, and a deep-seated commitment to revolutionizing the trucking industry. MustDeliver is a reflection of Carrie’s life story and her passion to create a better world for truckers, just like her brothers, who are the unsung heroes of American industry.
+At MustDeliver, we&amp;rsquo;ve ingrained the values of hard work, perseverance, and intimate understanding of the trucking world into our technology.</description>
+    </item>
+    
+    <item>
+      <title>Carrier</title>
+      <link>https://hugo.sagmetic.com/home/carrier/</link>
+      <pubDate>Mon, 26 Jun 2023 13:52:09 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/home/carrier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What We Offer</title>
+      <link>https://hugo.sagmetic.com/home/offer/</link>
+      <pubDate>Mon, 26 Jun 2023 13:46:00 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/home/offer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Must Deliver</title>
+      <link>https://hugo.sagmetic.com/home/mustdeliver/</link>
       <pubDate>Fri, 23 Jun 2023 18:23:45 +0530</pubDate>
       
-      <guid>/home/serve/</guid>
+      <guid>https://hugo.sagmetic.com/home/mustdeliver/</guid>
+      <description>MustDeliver provides automotive shippers (auto dealerships, auto auctions, online vehicleexchanges, car manufacturers &amp;amp; traditional brokers) an optimized end-to-end logisticsplatform which connects them to carriers, while using AI/ML technology for maximumefficiency and user convenience. Real time tracking tools and updated ETA’s demonstrateour commitment to addressing our customers’ top concerns regarding the transport of avaluable asset. Our platform services B2B marketplace transactions as well as providingSaaS tool solutions. . MustDeliver&amp;rsquo;s operating focus is in the US and Canada.</description>
+    </item>
+    
+    <item>
+      <title>What We Serve</title>
+      <link>https://hugo.sagmetic.com/home/serve/</link>
+      <pubDate>Fri, 23 Jun 2023 18:23:45 +0530</pubDate>
+      
+      <guid>https://hugo.sagmetic.com/home/serve/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shipping Transparency</title>
-      <link>/home/shippingtransparency/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://hugo.sagmetic.com/home/shippingtransparency/</link>
+      <pubDate>Tue, 23 May 2023 18:23:45 +0530</pubDate>
       
-      <guid>/home/shippingtransparency/</guid>
-      <description></description>
+      <guid>https://hugo.sagmetic.com/home/shippingtransparency/</guid>
+      <description>Content for Shipping Transparency page.</description>
     </item>
     
   </channel>

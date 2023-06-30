@@ -10,7 +10,7 @@
               {{ range .Params.serve_list }}
               <div class="serve_list">
                 {{ $image := resources.Get .image }}
-                <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                 <div class="serve_text">
                   <a href="#">{{ .title }}</a>
                   <p>{{ .description }}</p>

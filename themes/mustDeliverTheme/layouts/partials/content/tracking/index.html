@@ -26,7 +26,7 @@
                     <div class="loc-box">
                         <div class="log-img">
                             {{ $image := resources.Get .image }}
-                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                    <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                         </div>
                         <div class="loc-text">
                             <h5>{{ .title }}</h5>
@@ -47,7 +47,7 @@
         <div class="col-md-4 col-sm-4">
           <div class="status-img">
             {{ $image := resources.Get .statusImage }}
-                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                    <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
           </div>
         </div>
         <div class="col-md-8 col-sm-8">

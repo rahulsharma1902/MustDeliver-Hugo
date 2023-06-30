@@ -2,19 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/home/</loc>
+    <loc>https://hugo.sagmetic.com/</loc>
+    <lastmod>2023-06-28T14:11:39+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/blogs/my-third-blog/</loc>
+    <lastmod>2023-06-28T14:11:39+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/blogs/my-first-blog/</loc>
+    <lastmod>2023-06-28T12:54:47+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/blogs/my-second-blog/</loc>
+    <lastmod>2023-06-28T12:54:47+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/carrier-video/</loc>
+    <lastmod>2023-06-28T11:19:05+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/login/</loc>
+    <lastmod>2023-06-28T11:10:55+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/sign-up/</loc>
+    <lastmod>2023-06-28T10:47:13+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/privacy-policy/</loc>
+    <lastmod>2023-06-27T18:41:49+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/blogs/</loc>
+    <lastmod>2023-06-27T18:04:09+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/support/</loc>
+    <lastmod>2023-06-27T16:48:40+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/tracking/</loc>
+    <lastmod>2023-06-27T13:37:45+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/registration-guid/</loc>
+    <lastmod>2023-06-27T12:49:34+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/carrier-faqs/</loc>
+    <lastmod>2023-06-27T12:10:07+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/shipper-faqs/</loc>
+    <lastmod>2023-06-27T11:26:23+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/carrier/</loc>
+    <lastmod>2023-06-27T11:09:00+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/shipper/</loc>
+    <lastmod>2023-06-26T19:23:30+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/pricing/</loc>
+    <lastmod>2023-06-26T18:57:19+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/tms/</loc>
+    <lastmod>2023-06-26T16:31:41+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/marketplace/</loc>
+    <lastmod>2023-06-26T15:51:26+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/about/</loc>
+    <lastmod>2023-06-26T14:26:00+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/home/carrier/</loc>
+    <lastmod>2023-06-26T13:52:09+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/home/</loc>
+    <lastmod>2023-06-26T13:52:09+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/home/offer/</loc>
+    <lastmod>2023-06-26T13:46:00+05:30</lastmod>
+  </url><url>
+    <loc>https://hugo.sagmetic.com/home/mustdeliver/</loc>
     <lastmod>2023-06-23T18:23:45+05:30</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://hugo.sagmetic.com/home/serve/</loc>
     <lastmod>2023-06-23T18:23:45+05:30</lastmod>
   </url><url>
-    <loc>/home/serve/</loc>
-    <lastmod>2023-06-23T18:23:45+05:30</lastmod>
+    <loc>https://hugo.sagmetic.com/home/shippingtransparency/</loc>
+    <lastmod>2023-05-23T18:23:45+05:30</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://hugo.sagmetic.com/categories/</loc>
   </url><url>
-    <loc>/home/shippingtransparency/</loc>
-  </url><url>
-    <loc>/tags/</loc>
+    <loc>https://hugo.sagmetic.com/tags/</loc>
   </url>
 </urlset>

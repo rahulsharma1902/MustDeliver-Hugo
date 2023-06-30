@@ -10,7 +10,7 @@
             <div class="col-md-6">
                 <div class="main_banner-img">
                     {{ $image := resources.Get .Params.MianImage }}
-                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                    <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@
             <div class="col-lg-6 col-md-6">
                 <div class="carrier_img">
                     {{ $image := resources.Get .image }}
-                    <img src="{{ $image.RelPermalink }}" class="img-fluid" alt="">
+                    <img src="{{ $image.Permalink }}" class="img-fluid" alt="">
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
